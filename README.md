@@ -16,6 +16,9 @@
 | Concorrência e abstenção do concurso PRF (2013-2021) | [CSV](datasets/concorrencia-prf.csv) · [JSON](datasets/concorrencia-prf.json) | [escutapolicial.com.br/dados/concorrencia-prf/](https://escutapolicial.com.br/dados/concorrencia-prf/) |
 | Estrutura da prova da PRF por matéria: blocos oficiais × catálogo de estudo | [CSV](datasets/peso-das-materias-prf.csv) · [JSON](datasets/peso-das-materias-prf.json) | [escutapolicial.com.br/dados/peso-das-materias-prf/](https://escutapolicial.com.br/dados/peso-das-materias-prf/) |
 | Termômetro do Edital PRF - índice diário de aquecimento (0-100) | [CSV](datasets/termometro-edital-prf.csv) · [JSON](datasets/termometro-edital-prf.json) | [escutapolicial.com.br/dados/termometro-edital-prf/](https://escutapolicial.com.br/dados/termometro-edital-prf/) |
+| Salário do Policial Rodoviário Federal: tabela oficial de subsídio (Lei 14.875/2024) | [CSV](datasets/salario-prf.csv) · [JSON](datasets/salario-prf.json) | [escutapolicial.com.br/dados/salario-prf/](https://escutapolicial.com.br/dados/salario-prf/) |
+| TAF da PRF: índices oficiais do teste de aptidão física (edital 2021) | [CSV](datasets/taf-prf.csv) · [JSON](datasets/taf-prf.json) | [escutapolicial.com.br/dados/taf-prf/](https://escutapolicial.com.br/dados/taf-prf/) |
+| Requisitos e etapas do concurso da PRF (edital 2021) | [CSV](datasets/requisitos-prf.csv) · [JSON](datasets/requisitos-prf.json) | [escutapolicial.com.br/dados/requisitos-prf/](https://escutapolicial.com.br/dados/requisitos-prf/) |
 
 ## Linha do tempo real dos concursos da PRF (2013-2026)
 
@@ -107,6 +110,155 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 - Fase oficial do concurso: monitoramento do Diário Oficial da União pelo robô do Escuta Policial (varredura a cada ~20 minutos, seções 1 e 3)
 - Notícias e relevância editorial: Radar PRF do Escuta Policial (escutapolicial.com.br/radar), coleta automatizada 5x/dia de fontes públicas
 - Fórmula pública documentada nesta página - índice determinístico, sem IA no cálculo do número
+
+## Salário do Policial Rodoviário Federal: tabela oficial de subsídio (Lei 14.875/2024)
+
+Quanto ganha um Policial Rodoviário Federal? O subsídio inicial é R$ 12.253,84 e chega a R$ 23.000,00 no topo da carreira, com vigência a partir de 1º/05/2026. Tabela oficial completa por classe e padrão (Lei 14.875/2024), em CSV/JSON.
+
+| classe | padrao | subsidio_2024_08 | subsidio_2025_05 | subsidio_2026_05 |
+| --- | --- | --- | --- | --- |
+| Terceira | I | 11114.6 | 11670.33 | 12253.84 |
+| Terceira | II | 11206.08 | 11766.38 | 12440.9 |
+| Terceira | III | 11298.47 | 11863.4 | 12630.98 |
+| Segunda | I | 13127.22 | 13783.58 | 14764.25 |
+| Segunda | II | 13238.83 | 13900.77 | 14993.63 |
+| Segunda | III | 13351.55 | 14019.13 | 15226.76 |
+| Segunda | IV | 13465.41 | 14138.68 | 15463.72 |
+| Segunda | V | 13580.4 | 14259.42 | 15704.54 |
+| Segunda | VI | 13696.54 | 14381.37 | 15949.32 |
+| Primeira | I | 14712.66 | 15448.3 | 17244.77 |
+| Primeira | II | 15095.06 | 15849.82 | 17814.28 |
+| Primeira | III | 15488.91 | 16263.36 | 18404.39 |
+| Primeira | IV | 15894.59 | 16689.32 | 19015.88 |
+| Primeira | V | 16312.45 | 17128.07 | 19649.56 |
+| Primeira | VI | 16742.84 | 17579.98 | 20306.21 |
+| Especial | I | 17629.42 | 18510.89 | 21524.32 |
+| Especial | II | 18099.31 | 19004.28 | 22249.43 |
+| Especial | III | 18583.31 | 19512.48 | 23000 |
+
+
+**Fontes primárias:**
+
+- Lei nº 14.875, de 31 de maio de 2024, Anexo XXVII: https://www2.camara.leg.br/legin/fed/lei/2024/lei-14875-31-maio-2024-795709-anexo-pl.pdf (DOU de 31/05/2024, Seção 1, Edição Extra; texto também em https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14875.htm)
+- Edital nº 1 — PRF, de 18 de janeiro de 2021 (Cebraspe), item 2.3: https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF
+
+## TAF da PRF: índices oficiais do teste de aptidão física (edital 2021)
+
+Como é o TAF da PRF? 5 testes eliminatórios: barra fixa, shuttle run, impulsão horizontal, abdominal e corrida de 12 min. Na corrida, o mínimo para não ser eliminado é 2.301 m (H) e 2.001 m (M). Tabela oficial de pontuação em CSV/JSON.
+
+| teste | sexo | tipo | desempenho | pontos |
+| --- | --- | --- | --- | --- |
+| Flexão em barra fixa | masculino | reprovado (zero) | 0 a 2 | 0 |
+| Flexão em barra fixa | masculino | pontua | 3 | 2 |
+| Flexão em barra fixa | masculino | pontua | 4 | 2.5 |
+| Flexão em barra fixa | masculino | pontua | 5 | 3 |
+| Flexão em barra fixa | masculino | pontua | 6 | 3.5 |
+| Flexão em barra fixa | masculino | pontua | 7 | 4 |
+| Flexão em barra fixa | masculino | pontua | 8 | 4.5 |
+| Flexão em barra fixa | masculino | pontua | 9 ou mais | 5 |
+| Flexão em barra fixa | feminino | reprovado (zero) | abaixo de 10 | 0 |
+| Flexão em barra fixa | feminino | pontua | 10 a menos de 13 | 2 |
+| Flexão em barra fixa | feminino | pontua | 13 a menos de 16 | 2.5 |
+| Flexão em barra fixa | feminino | pontua | 16 a menos de 19 | 3 |
+| Flexão em barra fixa | feminino | pontua | 19 a menos de 22 | 3.5 |
+| Flexão em barra fixa | feminino | pontua | 22 a menos de 25 | 4 |
+| Flexão em barra fixa | feminino | pontua | 25 a menos de 28 | 4.5 |
+| Flexão em barra fixa | feminino | pontua | 28 ou mais | 5 |
+| Shuttle run (ir e vir, 9,14 m) | masculino | reprovado (zero) | 14" ou mais | 0 |
+| Shuttle run (ir e vir, 9,14 m) | masculino | pontua | 13"50 a 13"99 | 2 |
+| Shuttle run (ir e vir, 9,14 m) | masculino | pontua | 13" a 13"49 | 2.5 |
+| Shuttle run (ir e vir, 9,14 m) | masculino | pontua | 12"50 a 12"99 | 3 |
+| Shuttle run (ir e vir, 9,14 m) | masculino | pontua | 12" a 12"49 | 3.5 |
+| Shuttle run (ir e vir, 9,14 m) | masculino | pontua | 11"50 a 11"99 | 4 |
+| Shuttle run (ir e vir, 9,14 m) | masculino | pontua | 11" a 11"49 | 4.5 |
+| Shuttle run (ir e vir, 9,14 m) | masculino | pontua | abaixo de 11" | 5 |
+| Shuttle run (ir e vir, 9,14 m) | feminino | reprovado (zero) | 16" ou mais | 0 |
+| Shuttle run (ir e vir, 9,14 m) | feminino | pontua | 15"50 a 15"99 | 2 |
+| Shuttle run (ir e vir, 9,14 m) | feminino | pontua | 15" a 15"49 | 2.5 |
+| Shuttle run (ir e vir, 9,14 m) | feminino | pontua | 14"50 a 14"99 | 3 |
+| Shuttle run (ir e vir, 9,14 m) | feminino | pontua | 14" a 14"49 | 3.5 |
+| Shuttle run (ir e vir, 9,14 m) | feminino | pontua | 13"50 a 13"99 | 4 |
+| Shuttle run (ir e vir, 9,14 m) | feminino | pontua | 13" a 13"49 | 4.5 |
+| Shuttle run (ir e vir, 9,14 m) | feminino | pontua | abaixo de 13" | 5 |
+| Impulsão horizontal | masculino | reprovado (zero) | 0,00 a 2,00 | 0 |
+| Impulsão horizontal | masculino | pontua | 2,01 a 2,05 | 2 |
+| Impulsão horizontal | masculino | pontua | 2,06 a 2,10 | 2.5 |
+| Impulsão horizontal | masculino | pontua | 2,11 a 2,15 | 3 |
+| Impulsão horizontal | masculino | pontua | 2,16 a 2,20 | 3.5 |
+| Impulsão horizontal | masculino | pontua | 2,21 a 2,25 | 4 |
+| Impulsão horizontal | masculino | pontua | 2,26 a 2,30 | 4.5 |
+| Impulsão horizontal | masculino | pontua | 2,31 ou mais | 5 |
+| Impulsão horizontal | feminino | reprovado (zero) | 0,00 a 1,60 | 0 |
+| Impulsão horizontal | feminino | pontua | 1,61 a 1,65 | 2 |
+| Impulsão horizontal | feminino | pontua | 1,66 a 1,70 | 2.5 |
+| Impulsão horizontal | feminino | pontua | 1,71 a 1,75 | 3 |
+| Impulsão horizontal | feminino | pontua | 1,76 a 1,80 | 3.5 |
+| Impulsão horizontal | feminino | pontua | 1,81 a 1,85 | 4 |
+| Impulsão horizontal | feminino | pontua | 1,86 a 1,90 | 4.5 |
+| Impulsão horizontal | feminino | pontua | 1,91 ou mais | 5 |
+| Flexão abdominal (1 minuto) | masculino | reprovado (zero) | 0 a 34 | 0 |
+| Flexão abdominal (1 minuto) | masculino | pontua | 35 a 38 | 2 |
+| Flexão abdominal (1 minuto) | masculino | pontua | 39 a 42 | 2.5 |
+| Flexão abdominal (1 minuto) | masculino | pontua | 43 a 46 | 3 |
+| Flexão abdominal (1 minuto) | masculino | pontua | 47 a 50 | 3.5 |
+| Flexão abdominal (1 minuto) | masculino | pontua | 51 a 54 | 4 |
+| Flexão abdominal (1 minuto) | masculino | pontua | 55 a 58 | 4.5 |
+| Flexão abdominal (1 minuto) | masculino | pontua | 59 ou mais | 5 |
+| Flexão abdominal (1 minuto) | feminino | reprovado (zero) | 0 a 27 | 0 |
+| Flexão abdominal (1 minuto) | feminino | pontua | 28 a 30 | 2 |
+| Flexão abdominal (1 minuto) | feminino | pontua | 31 a 33 | 2.5 |
+| Flexão abdominal (1 minuto) | feminino | pontua | 34 a 36 | 3 |
+| Flexão abdominal (1 minuto) | feminino | pontua | 37 a 39 | 3.5 |
+| Flexão abdominal (1 minuto) | feminino | pontua | 40 a 42 | 4 |
+| Flexão abdominal (1 minuto) | feminino | pontua | 43 a 45 | 4.5 |
+| Flexão abdominal (1 minuto) | feminino | pontua | 46 ou mais | 5 |
+| Corrida de 12 minutos | masculino | reprovado (zero) | 0 a 2.300 | 0 |
+| Corrida de 12 minutos | masculino | pontua | 2.301 a 2.400 | 2 |
+| Corrida de 12 minutos | masculino | pontua | 2.401 a 2.500 | 2.5 |
+| Corrida de 12 minutos | masculino | pontua | 2.501 a 2.600 | 3 |
+| Corrida de 12 minutos | masculino | pontua | 2.601 a 2.700 | 3.5 |
+| Corrida de 12 minutos | masculino | pontua | 2.701 a 2.800 | 4 |
+| Corrida de 12 minutos | masculino | pontua | 2.801 a 2.900 | 4.5 |
+| Corrida de 12 minutos | masculino | pontua | 2.901 ou mais | 5 |
+| Corrida de 12 minutos | feminino | reprovado (zero) | 0 a 2.000 | 0 |
+| Corrida de 12 minutos | feminino | pontua | 2.001 a 2.100 | 2 |
+| Corrida de 12 minutos | feminino | pontua | 2.101 a 2.200 | 2.5 |
+| Corrida de 12 minutos | feminino | pontua | 2.201 a 2.300 | 3 |
+| Corrida de 12 minutos | feminino | pontua | 2.301 a 2.400 | 3.5 |
+| Corrida de 12 minutos | feminino | pontua | 2.401 a 2.500 | 4 |
+| Corrida de 12 minutos | feminino | pontua | 2.501 a 2.600 | 4.5 |
+| Corrida de 12 minutos | feminino | pontua | 2.601 ou mais | 5 |
+
+
+**Fontes primárias:**
+
+- Edital nº 1 — PRF, de 18 de janeiro de 2021 (Cebraspe), item 11 e Anexo III: https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF
+
+## Requisitos e etapas do concurso da PRF (edital 2021)
+
+Quais os requisitos para ser Policial Rodoviário Federal? Nível superior em qualquer área e CNH B. O edital de 2021 não exigiu idade máxima nem altura mínima, e tatuagem é permitida. Requisitos, etapas e taxa (R$ 180), com o subitem oficial de cada regra.
+
+| requisito | exigencia | fonte_oficial |
+| --- | --- | --- |
+| Escolaridade | Diploma de conclusão de curso de graduação em QUALQUER área de formação, registrado e emitido por instituição reconhecida pelo MEC | Edital 2021, itens 2.1 e 3.3 |
+| CNH (habilitação) | Categoria "B" ou superior, válida, sem impedimentos, sem adaptação veicular e sem restrição de locais/horários — exigida também durante todo o Curso de Formação | Edital 2021, itens 3.9 e 13.3-b |
+| Idade mínima | 18 anos completos (requisito legal de investidura em cargo público) | Lei nº 8.112/1990, art. 5º, V |
+| Idade máxima | Não prevista no edital de 2021 | Edital 2021 (ausência de previsão) |
+| Altura mínima | Não prevista no edital de 2021 | Edital 2021 (ausência de previsão) |
+| Tatuagem | Permitida. Só reprova tatuagem que viole valores constitucionais: ideologia terrorista/extremista, incitação à violência ou à criminalidade, discriminação ou preconceito | Edital 2021, Anexo V (com base no RE 898.450/SP do STF) |
+| Nacionalidade | Brasileira, ou portuguesa amparada pelo Estatuto de Igualdade (CF, art. 12, § 1º) | Edital 2021, item 3.2 |
+| Quitações | Estar quite com as obrigações eleitorais e, para homens, com as militares | Edital 2021, itens 3.4 e 3.5 |
+| Exame toxicológico | Autorizar a coleta de material para exames toxicológicos a qualquer tempo | Edital 2021, item 3.11 |
+| Investigação social | Estende-se durante TODO o concurso, da inscrição à nomeação | Edital 2021, item 1.5 |
+| Taxa de inscrição | R$ 180,00 (isenção para inscritos no CadÚnico e doadores de medula óssea) | Edital 2021, item 7.1 |
+| Validade do concurso | 2 anos a partir da homologação, prorrogável uma única vez por igual período | Edital 2021, item 23.30 |
+
+
+**Fontes primárias:**
+
+- Edital nº 1 — PRF, de 18 de janeiro de 2021 (Cebraspe): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF
+- Lei nº 8.112/1990, art. 5º (requisitos básicos para investidura em cargo público, inclusive idade mínima de 18 anos)
+- STF, Recurso Extraordinário 898.450/SP, de 17/08/2016 (repercussão geral sobre tatuagem em concurso público, citado no Anexo V do edital)
 
 ## Como citar
 
