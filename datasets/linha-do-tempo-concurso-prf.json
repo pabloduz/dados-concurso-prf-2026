@@ -1,0 +1,74 @@
+{
+  "dataset": "Linha do tempo real dos concursos da PRF (2013-2026)",
+  "url": "https://escutapolicial.com.br/dados/linha-do-tempo-concurso-prf/",
+  "atualizadoEm": "2026-07-16",
+  "licenca": "CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/",
+  "citacao": "Escuta Policial - PRF em Números. \"Linha do tempo real dos concursos da PRF (2013-2026)\". Disponível em: https://escutapolicial.com.br/dados/linha-do-tempo-concurso-prf/. Dados compilados de fontes oficiais (DOU, Cebraspe/CESPE). Licença CC BY 4.0.",
+  "fontes": [
+    "Portaria SEDGG/ME nº 25.412 (DOU 24/12/2020)",
+    "Edital nº 1 — PRF 2021, Cebraspe: https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF (período de inscrição e cronograma: Anexo I)",
+    "Demanda oficial de candidatos, Cebraspe: https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/PRF_21____DEMANDA_CANDIDATOS_POR_VAGA.PDF (304.330 inscritos, 1.500 vagas)",
+    "Presentes/ausentes na prova objetiva: resultados divulgados pelo Cebraspe/PRF (205.241 presentes, 99.089 ausentes; verificado em fontes públicas em 14/07/2026)",
+    "Portaria MP nº 236 (DOU 27/07/2018)",
+    "Edital de abertura PRF 2018, Cebraspe (cebraspe.org.br/concursos/prf_18)",
+    "Demanda oficial de candidatos, Cebraspe: https://cdn.cebraspe.org.br/concursos/prf_18/arquivos/PRF_18___DEMANDA.PDF (129.152 inscritos, 500 vagas, quebra por UF)",
+    "Edital nº 1 — DPRF 2013, CESPE/UnB (cespe.unb.br/concursos/dprf_13)",
+    "Demanda oficial de candidatos, CESPE/UnB, 02/08/2013: http://www.cespe.unb.br/concursos/DPRF_13/arquivos/DEMANDA_DPRF_13.PDF (109.769 inscritos, 1.000 vagas, demanda 109,77)",
+    "Pedido de 533 vagas (269 policial + 264 administrativo) noticiado a partir de ofício da PRF ao MGI; verificado em fontes públicas em 14/07/2026",
+    "Prorrogação da validade do concurso 2021 até 21/12/2026 (DOU)"
+  ],
+  "colunas": [
+    "ciclo",
+    "banca",
+    "autorizacao_dou",
+    "edital",
+    "autorizacao_para_edital_dias",
+    "prova_objetiva",
+    "edital_para_prova_dias",
+    "inscricao_inicio",
+    "inscricao_fim",
+    "inscricao_janela_dias",
+    "vagas"
+  ],
+  "linhas": [
+    [
+      "2021",
+      "Cebraspe",
+      "2020-12-24",
+      "2021-01-19",
+      26,
+      "2021-05-09",
+      110,
+      "2021-01-25",
+      "2021-02-12",
+      18,
+      1500
+    ],
+    [
+      "2018/19",
+      "Cebraspe",
+      "2018-07-27",
+      "2018-11-28",
+      124,
+      "2019-02-03",
+      67,
+      "2018-12-03",
+      "2018-12-18",
+      15,
+      500
+    ],
+    [
+      "2013",
+      "CESPE/UnB",
+      null,
+      "2013-06-11",
+      null,
+      "2013-08-11",
+      61,
+      "2013-06-24",
+      "2013-07-08",
+      14,
+      1000
+    ]
+  ]
+}

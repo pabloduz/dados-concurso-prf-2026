@@ -1,0 +1,26 @@
+{
+  "dataset": "Termômetro do Edital PRF - índice diário de aquecimento (0-100)",
+  "url": "https://escutapolicial.com.br/dados/termometro-edital-prf/",
+  "atualizadoEm": "2026-07-16",
+  "licenca": "CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/",
+  "citacao": "Escuta Policial - PRF em Números. \"Termômetro do Edital PRF - índice diário de aquecimento (0-100)\". Disponível em: https://escutapolicial.com.br/dados/termometro-edital-prf/. Dados compilados de fontes oficiais (DOU, Cebraspe/CESPE). Licença CC BY 4.0.",
+  "fontes": [
+    "Fase oficial do concurso: monitoramento do Diário Oficial da União pelo robô do Escuta Policial (varredura a cada ~20 minutos, seções 1 e 3)",
+    "Notícias e relevância editorial: Radar PRF do Escuta Policial (escutapolicial.com.br/radar), coleta automatizada 5x/dia de fontes públicas",
+    "Fórmula pública documentada nesta página - índice determinístico, sem IA no cálculo do número"
+  ],
+  "colunas": [
+    "data",
+    "score",
+    "fase_oficial",
+    "noticias_30d"
+  ],
+  "linhas": [
+    [
+      "2026-07-16",
+      38,
+      "pre-edital",
+      12
+    ]
+  ]
+}
