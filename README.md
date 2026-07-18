@@ -22,7 +22,7 @@
 
 ## Linha do tempo real dos concursos da PRF (2013-2026)
 
-Quanto tempo entre a autorização, o edital e a prova da PRF? Dataset com as datas oficiais dos concursos de 2013, 2018/19 e 2021: o edital saiu 26 dias (2021) e 124 dias (2018/19) após a autorização.
+Quanto tempo da autorização ao edital da PRF? Ele saiu 26 dias após a autorização em 2021 e 124 dias em 2018/19. Datas oficiais de 2013, 2018/19 e 2021.
 
 | ciclo | banca | autorizacao_dou | edital | autorizacao_para_edital_dias | prova_objetiva | edital_para_prova_dias | inscricao_inicio | inscricao_fim | inscricao_janela_dias | vagas |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -47,7 +47,7 @@ Quanto tempo entre a autorização, o edital e a prova da PRF? Dataset com as da
 
 ## Concorrência e abstenção do concurso PRF (2013-2021)
 
-Quantos inscritos tem o concurso da PRF? 304.330 em 2021 (202,9 por vaga), 129.152 em 2018/19 e 109.769 em 2013 - dataset com os números oficiais de demanda e abstenção.
+Quantos inscritos tem o concurso da PRF? 304.330 em 2021 (202,9 por vaga), 129.152 em 2018/19 e 109.769 em 2013. Números oficiais de demanda e abstenção.
 
 | ciclo | vagas | inscritos | inscritos_por_vaga | presentes_prova_objetiva | ausentes_prova_objetiva | abstencao_pct |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -70,7 +70,7 @@ Quantos inscritos tem o concurso da PRF? 304.330 em 2021 (202,9 por vaga), 129.1
 
 ## Estrutura da prova da PRF por matéria: blocos oficiais × catálogo de estudo
 
-Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota mínima própria. Dataset com a estrutura oficial da prova de 2021 (blocos e mínimos) cruzada com o catálogo de áudio-aulas por matéria.
+Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota mínima própria. Estrutura oficial de 2021 (blocos e notas mínimas) por matéria.
 
 | materia | bloco_edital_2021 | nota_minima_do_bloco | peso_editorial_escuta_policial | aulas_no_catalogo | minutos_de_audio |
 | --- | --- | --- | --- | --- | --- |
@@ -115,7 +115,7 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 
 ## Salário do Policial Rodoviário Federal: tabela oficial de subsídio (Lei 14.875/2024)
 
-Quanto ganha um Policial Rodoviário Federal? O subsídio inicial é R$ 12.253,84 e chega a R$ 23.000,00 no topo da carreira, com vigência a partir de 1º/05/2026. Tabela oficial completa por classe e padrão (Lei 14.875/2024), em CSV/JSON.
+Quanto ganha um Policial Rodoviário Federal? Subsídio inicial de R$ 12.253,84, chegando a R$ 23.000,00 no topo. Tabela da Lei 14.875/2024 em CSV/JSON.
 
 | classe | padrao | subsidio_2024_08 | subsidio_2025_05 | subsidio_2026_05 |
 | --- | --- | --- | --- | --- |
@@ -146,7 +146,7 @@ Quanto ganha um Policial Rodoviário Federal? O subsídio inicial é R$ 12.253,8
 
 ## TAF da PRF: índices oficiais do teste de aptidão física (edital 2021)
 
-Como é o TAF da PRF? 5 testes eliminatórios: barra fixa, shuttle run, impulsão horizontal, abdominal e corrida de 12 min. Na corrida, o mínimo para não ser eliminado é 2.301 m (H) e 2.001 m (M). Tabela oficial de pontuação em CSV/JSON.
+Como é o TAF da PRF? 5 testes eliminatórios (barra fixa, shuttle run, impulsão, abdominal e corrida). Na corrida, o mínimo é 2.301 m (H) e 2.001 m (M).
 
 | teste | sexo | tipo | desempenho | pontos |
 | --- | --- | --- | --- | --- |
@@ -238,7 +238,7 @@ Como é o TAF da PRF? 5 testes eliminatórios: barra fixa, shuttle run, impulsã
 
 ## Requisitos e etapas do concurso da PRF (edital 2021)
 
-Quais os requisitos para ser Policial Rodoviário Federal? Nível superior em qualquer área e CNH B. O edital de 2021 não exigiu idade máxima nem altura mínima, e tatuagem é permitida. Requisitos, etapas e taxa (R$ 180), com o subitem oficial de cada regra.
+Requisitos do concurso PRF: nível superior em qualquer área e CNH B. O edital de 2021 não exigiu idade máxima, altura mínima nem vetou tatuagem. Taxa: R$ 180.
 
 | requisito | exigencia | fonte_oficial |
 | --- | --- | --- |
