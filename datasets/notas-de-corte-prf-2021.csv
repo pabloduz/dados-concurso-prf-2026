@@ -1,0 +1,7 @@
+lista,fase,candidatos,nota_minima,nota_maxima,pontuacao_maxima_da_fase
+ampla-concorrencia,objetiva,5095,73,101,120
+negros,objetiva,1406,69,101,120
+pcd,objetiva,246,50,88,120
+ampla-concorrencia,final (objetiva + discursiva),4753,83,119.93,140
+negros,final (objetiva + discursiva),1257,79.06,119.93,140
+pcd,final (objetiva + discursiva),180,60.77,100.4,140

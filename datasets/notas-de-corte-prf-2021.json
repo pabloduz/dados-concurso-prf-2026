@@ -1,0 +1,71 @@
+{
+  "dataset": "Notas de corte do concurso PRF 2021: objetiva e final, por lista",
+  "url": "https://escutapolicial.com.br/dados/notas-de-corte-prf-2021/",
+  "atualizadoEm": "2026-07-19",
+  "licenca": "CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/",
+  "citacao": "Escuta Policial - PRF em Números. \"Notas de corte do concurso PRF 2021: objetiva e final, por lista\". Disponível em: https://escutapolicial.com.br/dados/notas-de-corte-prf-2021/. Dados compilados de fontes oficiais (DOU, Cebraspe/CESPE). Licença CC BY 4.0.",
+  "fontes": [
+    "Edital Concurso PRF nº 11, de 27 de maio de 2021 (Cebraspe) — resultado final na prova objetiva e resultado provisório na prova discursiva: https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ED_11_PRF_2021_FINAL_OBJETIVA_PROV_DISCURSIVA.PDF",
+    "Edital nº 1 — PRF, de 18 de janeiro de 2021 (Cebraspe) — abertura, itens 4 (vagas), 9.12 (pontuação) e 10.6.1 (limite de correção da discursiva por lista), quadro do item 21 (pontuação máxima do certame): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF",
+    "Edital Concurso PRF nº 12, de 2021 (Cebraspe) — resultado final na prova discursiva e convocação para o exame de aptidão física (TAF): https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ED_12_PRF_2021_FINAL_DISCURSIVA_CONV_TAF_FIP_MATRCULA.PDF",
+    "Edital Concurso PRF nº 13, de 16 de junho de 2021 (Cebraspe) — retificação, por erro material, da nota final na prova objetiva de uma candidata (inscrição 10031927, nota corrigida para 74,00): https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ed_13_prf_2021_ret_nota.pdf"
+  ],
+  "colunas": [
+    "lista",
+    "fase",
+    "candidatos",
+    "nota_minima",
+    "nota_maxima",
+    "pontuacao_maxima_da_fase"
+  ],
+  "linhas": [
+    [
+      "ampla-concorrencia",
+      "objetiva",
+      5095,
+      73,
+      101,
+      120
+    ],
+    [
+      "negros",
+      "objetiva",
+      1406,
+      69,
+      101,
+      120
+    ],
+    [
+      "pcd",
+      "objetiva",
+      246,
+      50,
+      88,
+      120
+    ],
+    [
+      "ampla-concorrencia",
+      "final (objetiva + discursiva)",
+      4753,
+      83,
+      119.93,
+      140
+    ],
+    [
+      "negros",
+      "final (objetiva + discursiva)",
+      1257,
+      79.06,
+      119.93,
+      140
+    ],
+    [
+      "pcd",
+      "final (objetiva + discursiva)",
+      180,
+      60.77,
+      100.4,
+      140
+    ]
+  ]
+}

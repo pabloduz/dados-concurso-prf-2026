@@ -19,6 +19,7 @@
 | Salário do Policial Rodoviário Federal: tabela oficial de subsídio (Lei 14.875/2024) | [CSV](datasets/salario-prf.csv) · [JSON](datasets/salario-prf.json) | [escutapolicial.com.br/dados/salario-prf/](https://escutapolicial.com.br/dados/salario-prf/) |
 | TAF da PRF: índices oficiais do teste de aptidão física (edital 2021) | [CSV](datasets/taf-prf.csv) · [JSON](datasets/taf-prf.json) | [escutapolicial.com.br/dados/taf-prf/](https://escutapolicial.com.br/dados/taf-prf/) |
 | Requisitos e etapas do concurso da PRF (edital 2021) | [CSV](datasets/requisitos-prf.csv) · [JSON](datasets/requisitos-prf.json) | [escutapolicial.com.br/dados/requisitos-prf/](https://escutapolicial.com.br/dados/requisitos-prf/) |
+| Notas de corte do concurso PRF 2021: objetiva e final, por lista | [CSV](datasets/notas-de-corte-prf-2021.csv) · [JSON](datasets/notas-de-corte-prf-2021.json) | [escutapolicial.com.br/dados/notas-de-corte-prf-2021/](https://escutapolicial.com.br/dados/notas-de-corte-prf-2021/) |
 
 ## Linha do tempo real dos concursos da PRF (2013-2026)
 
@@ -262,6 +263,27 @@ Requisitos do concurso PRF: nível superior em qualquer área e CNH B. O edital 
 - Edital nº 1 — PRF, de 18 de janeiro de 2021 (Cebraspe): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF
 - Lei nº 8.112/1990, art. 5º (requisitos básicos para investidura em cargo público, inclusive idade mínima de 18 anos)
 - STF, Recurso Extraordinário 898.450/SP, de 17/08/2016 (repercussão geral sobre tatuagem em concurso público, citado no Anexo V do edital)
+
+## Notas de corte do concurso PRF 2021: objetiva e final, por lista
+
+Nota de corte da PRF 2021 na ampla concorrência: 73,0 na objetiva, 83,0 no final. Cortes de negros e PCD, com fonte no Cebraspe.
+
+| lista | fase | candidatos | nota_minima | nota_maxima | pontuacao_maxima_da_fase |
+| --- | --- | --- | --- | --- | --- |
+| ampla-concorrencia | objetiva | 5095 | 73 | 101 | 120 |
+| negros | objetiva | 1406 | 69 | 101 | 120 |
+| pcd | objetiva | 246 | 50 | 88 | 120 |
+| ampla-concorrencia | final (objetiva + discursiva) | 4753 | 83 | 119.93 | 140 |
+| negros | final (objetiva + discursiva) | 1257 | 79.06 | 119.93 | 140 |
+| pcd | final (objetiva + discursiva) | 180 | 60.77 | 100.4 | 140 |
+
+
+**Fontes primárias:**
+
+- Edital Concurso PRF nº 11, de 27 de maio de 2021 (Cebraspe) — resultado final na prova objetiva e resultado provisório na prova discursiva: https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ED_11_PRF_2021_FINAL_OBJETIVA_PROV_DISCURSIVA.PDF
+- Edital nº 1 — PRF, de 18 de janeiro de 2021 (Cebraspe) — abertura, itens 4 (vagas), 9.12 (pontuação) e 10.6.1 (limite de correção da discursiva por lista), quadro do item 21 (pontuação máxima do certame): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF
+- Edital Concurso PRF nº 12, de 2021 (Cebraspe) — resultado final na prova discursiva e convocação para o exame de aptidão física (TAF): https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ED_12_PRF_2021_FINAL_DISCURSIVA_CONV_TAF_FIP_MATRCULA.PDF
+- Edital Concurso PRF nº 13, de 16 de junho de 2021 (Cebraspe) — retificação, por erro material, da nota final na prova objetiva de uma candidata (inscrição 10031927, nota corrigida para 74,00): https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ed_13_prf_2021_ret_nota.pdf
 
 ## Como citar
 
