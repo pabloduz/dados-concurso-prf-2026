@@ -2,7 +2,7 @@
 
 > Fatos do concurso da PRF compilados de **fontes primárias** (Diário Oficial da União, editais e PDFs oficiais do Cebraspe/CESPE) e atualizados automaticamente: um robô do [Escuta Policial](https://escutapolicial.com.br/dados/) lê o DOU a cada ~20 minutos e este repositório é espelhado a cada varredura do Radar (5x por dia).
 
-**🌡️ Termômetro do Edital PRF em 19/07/2026: `30/100` - em aquecimento** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
+**🌡️ Termômetro do Edital PRF em 19/07/2026: `29/100` - em aquecimento** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
 
 - **Licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt-br)**: copie, republique e adapte (inclusive comercialmente), **citando "Escuta Policial" com link** para https://escutapolicial.com.br/dados/.
 - Nenhum número entra sem ato oficial: célula sem fonte fica vazia - preferimos a lacuna ao chute.
@@ -101,7 +101,7 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 
 | data | score | fase_oficial | noticias_30d |
 | --- | --- | --- | --- |
-| 2026-07-19 | 30 | pre-edital | 7 |
+| 2026-07-19 | 29 | pre-edital | 6 |
 | 2026-07-18 | 37 | pre-edital | 11 |
 | 2026-07-17 | 40 | pre-edital | 13 |
 | 2026-07-16 | 40 | pre-edital | 13 |
