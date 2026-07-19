@@ -1,12 +1,12 @@
 {
   "dataset": "Estrutura da prova da PRF por matéria: blocos oficiais × catálogo de estudo",
   "url": "https://escutapolicial.com.br/dados/peso-das-materias-prf/",
-  "atualizadoEm": "2026-07-18",
+  "atualizadoEm": "2026-07-19",
   "licenca": "CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/",
   "citacao": "Escuta Policial - PRF em Números. \"Estrutura da prova da PRF por matéria: blocos oficiais × catálogo de estudo\". Disponível em: https://escutapolicial.com.br/dados/peso-das-materias-prf/. Dados compilados de fontes oficiais (DOU, Cebraspe/CESPE). Licença CC BY 4.0.",
   "fontes": [
     "Edital nº 1 — PRF, de 2021 (Cebraspe): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF — itens 9 (prova objetiva, critérios 9.12) e 24 (objetos de avaliação, composição dos blocos)",
-    "Peso editorial, aulas e minutos de áudio: catálogo do Escuta Policial (https://escutapolicial.com.br/aulas/), atualizado em 18 de julho de 2026"
+    "Peso editorial, aulas e minutos de áudio: catálogo do Escuta Policial (https://escutapolicial.com.br/aulas/), atualizado em 19 de julho de 2026"
   ],
   "colunas": [
     "materia",
