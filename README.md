@@ -20,6 +20,7 @@
 | TAF da PRF: índices oficiais do teste de aptidão física (edital 2021) | [CSV](datasets/taf-prf.csv) · [JSON](datasets/taf-prf.json) | [escutapolicial.com.br/dados/taf-prf/](https://escutapolicial.com.br/dados/taf-prf/) |
 | Requisitos e etapas do concurso da PRF (edital 2021) | [CSV](datasets/requisitos-prf.csv) · [JSON](datasets/requisitos-prf.json) | [escutapolicial.com.br/dados/requisitos-prf/](https://escutapolicial.com.br/dados/requisitos-prf/) |
 | Notas de corte do concurso PRF 2021: objetiva e final, por lista | [CSV](datasets/notas-de-corte-prf-2021.csv) · [JSON](datasets/notas-de-corte-prf-2021.json) | [escutapolicial.com.br/dados/notas-de-corte-prf-2021/](https://escutapolicial.com.br/dados/notas-de-corte-prf-2021/) |
+| Quem as IAs citam para estudar para a PRF (monitor mensal) | [CSV](datasets/presenca-ia.csv) · [JSON](datasets/presenca-ia.json) | [escutapolicial.com.br/dados/presenca-ia/](https://escutapolicial.com.br/dados/presenca-ia/) |
 
 ## Linha do tempo real dos concursos da PRF (2013-2026)
 
@@ -284,6 +285,23 @@ Nota de corte da PRF 2021 na ampla concorrência: 73,0 na objetiva, 83,0 no fina
 - Edital nº 1 — PRF, de 18 de janeiro de 2021 (Cebraspe) — abertura, itens 4 (vagas), 9.12 (pontuação) e 10.6.1 (limite de correção da discursiva por lista), quadro do item 21 (pontuação máxima do certame): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF
 - Edital Concurso PRF nº 12, de 2021 (Cebraspe) — resultado final na prova discursiva e convocação para o exame de aptidão física (TAF): https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ED_12_PRF_2021_FINAL_DISCURSIVA_CONV_TAF_FIP_MATRCULA.PDF
 - Edital Concurso PRF nº 13, de 16 de junho de 2021 (Cebraspe) — retificação, por erro material, da nota final na prova objetiva de uma candidata (inscrição 10031927, nota corrigida para 74,00): https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ed_13_prf_2021_ret_nota.pdf
+
+## Quem as IAs citam para estudar para a PRF (monitor mensal)
+
+Quais marcas as IAs citam para quem quer estudar para a PRF? Monitor mensal, 5 marcas, metodologia aberta. Última rodada: 19/07/2026.
+
+| data | marca | perguntas_em_que_aparece | total_perguntas | share_of_voice_pct | com_url_citada |
+| --- | --- | --- | --- | --- | --- |
+| 2026-07-19 | Estratégia Concursos | 13 | 15 | 43.3 | 3 |
+| 2026-07-19 | Gran Cursos | 11 | 15 | 36.7 | 2 |
+| 2026-07-19 | EmÁudio Concursos | 3 | 15 | 10 | 1 |
+| 2026-07-19 | Nova Concursos | 3 | 15 | 10 | 1 |
+| 2026-07-19 | Escuta Policial | 0 | 15 | 0 | 0 |
+
+
+**Fontes primárias:**
+
+- Coleta própria do Escuta Policial via API Anthropic (modelo pinado claude-sonnet-5, busca web habilitada). Painel de perguntas e regras de detecção públicos no dado bruto: https://escutapolicial.com.br/dados/presenca-ia/dados.json
 
 ## Como citar
 

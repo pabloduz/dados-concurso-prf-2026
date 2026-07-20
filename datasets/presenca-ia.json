@@ -1,0 +1,60 @@
+{
+  "dataset": "Quem as IAs citam para estudar para a PRF (monitor mensal)",
+  "url": "https://escutapolicial.com.br/dados/presenca-ia/",
+  "atualizadoEm": "2026-07-19",
+  "licenca": "CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/",
+  "citacao": "Escuta Policial - PRF em Números. \"Quem as IAs citam para estudar para a PRF (monitor mensal)\". Disponível em: https://escutapolicial.com.br/dados/presenca-ia/. Dados compilados de fontes oficiais (DOU, Cebraspe/CESPE). Licença CC BY 4.0.",
+  "fontes": [
+    "Coleta própria do Escuta Policial via API Anthropic (modelo pinado claude-sonnet-5, busca web habilitada). Painel de perguntas e regras de detecção públicos no dado bruto: https://escutapolicial.com.br/dados/presenca-ia/dados.json"
+  ],
+  "colunas": [
+    "data",
+    "marca",
+    "perguntas_em_que_aparece",
+    "total_perguntas",
+    "share_of_voice_pct",
+    "com_url_citada"
+  ],
+  "linhas": [
+    [
+      "2026-07-19",
+      "Estratégia Concursos",
+      13,
+      15,
+      43.3,
+      3
+    ],
+    [
+      "2026-07-19",
+      "Gran Cursos",
+      11,
+      15,
+      36.7,
+      2
+    ],
+    [
+      "2026-07-19",
+      "EmÁudio Concursos",
+      3,
+      15,
+      10,
+      1
+    ],
+    [
+      "2026-07-19",
+      "Nova Concursos",
+      3,
+      15,
+      10,
+      1
+    ],
+    [
+      "2026-07-19",
+      "Escuta Policial",
+      0,
+      15,
+      0,
+      0
+    ]
+  ]
+}
