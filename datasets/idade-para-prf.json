@@ -1,0 +1,60 @@
+{
+  "dataset": "Idade para o concurso da PRF: mínima, máxima e o que diz a lei",
+  "url": "https://escutapolicial.com.br/dados/idade-para-prf/",
+  "atualizadoEm": "2026-07-25",
+  "licenca": "CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/",
+  "citacao": "Escuta Policial - PRF em Números. \"Idade para o concurso da PRF: mínima, máxima e o que diz a lei\". Disponível em: https://escutapolicial.com.br/dados/idade-para-prf/. Dados compilados de fontes oficiais (DOU, Cebraspe/CESPE). Licença CC BY 4.0.",
+  "fontes": [
+    "Edital nº 1 — PRF, de 18 de janeiro de 2021 (Cebraspe): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF",
+    "Lei nº 8.112/1990, art. 5º, V (idade mínima de 18 anos como requisito de investidura em cargo público federal)",
+    "Lei Complementar nº 152/2015 (aposentadoria compulsória do servidor público aos 75 anos)",
+    "Súmula 683 do Supremo Tribunal Federal (limite de idade em concurso só se legitima quando justificado pela natureza das atribuições do cargo)"
+  ],
+  "colunas": [
+    "regra",
+    "o_que_vale",
+    "fonte_oficial"
+  ],
+  "linhas": [
+    [
+      "Idade mínima",
+      "18 anos completos (requisito legal de investidura em cargo público)",
+      "Lei nº 8.112/1990, art. 5º, V"
+    ],
+    [
+      "Idade máxima",
+      "Não prevista no edital de 2021",
+      "Edital 2021 (ausência de previsão)"
+    ],
+    [
+      "Quando a idade é exigida",
+      "Na posse, não na inscrição - os requisitos de investidura são comprovados ao tomar posse no cargo",
+      "Lei nº 8.112/1990, art. 5º (requisitos para investidura)"
+    ],
+    [
+      "Altura mínima",
+      "Não prevista no edital de 2021",
+      "Edital 2021 (ausência de previsão)"
+    ],
+    [
+      "Escolaridade (efeito prático na idade)",
+      "Diploma de nível superior em qualquer área - não é regra de idade, mas é o filtro que na prática eleva a idade de entrada",
+      "Edital 2021, itens 2.1 e 3.3"
+    ],
+    [
+      "CNH categoria B",
+      "Categoria \"B\" ou superior, válida, sem impedimentos, sem adaptação veicular e sem restrição de locais/horários — exigida também durante todo o Curso de Formação",
+      "Edital 2021, itens 3.9 e 13.3-b"
+    ],
+    [
+      "Teto de idade na carreira",
+      "Aposentadoria compulsória aos 75 anos - único limite etário que existe, e ele é na saída, não na entrada",
+      "Lei Complementar nº 152/2015"
+    ],
+    [
+      "Limite de idade em edital futuro",
+      "Só é legítimo se previsto em lei E justificado pela natureza das atribuições do cargo - edital sozinho não cria limite",
+      "Súmula 683 do STF"
+    ]
+  ]
+}

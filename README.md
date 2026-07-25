@@ -19,6 +19,7 @@
 | Salário do Policial Rodoviário Federal: tabela oficial de subsídio (Lei 14.875/2024) | [CSV](datasets/salario-prf.csv) · [JSON](datasets/salario-prf.json) | [escutapolicial.com.br/dados/salario-prf/](https://escutapolicial.com.br/dados/salario-prf/) |
 | TAF da PRF: índices oficiais do teste de aptidão física (edital 2021) | [CSV](datasets/taf-prf.csv) · [JSON](datasets/taf-prf.json) | [escutapolicial.com.br/dados/taf-prf/](https://escutapolicial.com.br/dados/taf-prf/) |
 | Requisitos e etapas do concurso da PRF (edital 2021) | [CSV](datasets/requisitos-prf.csv) · [JSON](datasets/requisitos-prf.json) | [escutapolicial.com.br/dados/requisitos-prf/](https://escutapolicial.com.br/dados/requisitos-prf/) |
+| Idade para o concurso da PRF: mínima, máxima e o que diz a lei | [CSV](datasets/idade-para-prf.csv) · [JSON](datasets/idade-para-prf.json) | [escutapolicial.com.br/dados/idade-para-prf/](https://escutapolicial.com.br/dados/idade-para-prf/) |
 | Notas de corte do concurso PRF 2021: objetiva e final, por lista | [CSV](datasets/notas-de-corte-prf-2021.csv) · [JSON](datasets/notas-de-corte-prf-2021.json) | [escutapolicial.com.br/dados/notas-de-corte-prf-2021/](https://escutapolicial.com.br/dados/notas-de-corte-prf-2021/) |
 | Quem as IAs citam para estudar para a PRF (monitor mensal) | [CSV](datasets/presenca-ia.csv) · [JSON](datasets/presenca-ia.json) | [escutapolicial.com.br/dados/presenca-ia/](https://escutapolicial.com.br/dados/presenca-ia/) |
 
@@ -270,6 +271,29 @@ Requisitos do concurso PRF: nível superior em qualquer área e CNH B. O edital 
 - Edital nº 1 — PRF, de 18 de janeiro de 2021 (Cebraspe): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF
 - Lei nº 8.112/1990, art. 5º (requisitos básicos para investidura em cargo público, inclusive idade mínima de 18 anos)
 - STF, Recurso Extraordinário 898.450/SP, de 17/08/2016 (repercussão geral sobre tatuagem em concurso público, citado no Anexo V do edital)
+
+## Idade para o concurso da PRF: mínima, máxima e o que diz a lei
+
+Não existe idade máxima para o concurso da PRF: o edital de 2021 não previu limite. A mínima é 18 anos, exigidos na posse (Lei 8.112/1990, art. 5º, V).
+
+| regra | o_que_vale | fonte_oficial |
+| --- | --- | --- |
+| Idade mínima | 18 anos completos (requisito legal de investidura em cargo público) | Lei nº 8.112/1990, art. 5º, V |
+| Idade máxima | Não prevista no edital de 2021 | Edital 2021 (ausência de previsão) |
+| Quando a idade é exigida | Na posse, não na inscrição - os requisitos de investidura são comprovados ao tomar posse no cargo | Lei nº 8.112/1990, art. 5º (requisitos para investidura) |
+| Altura mínima | Não prevista no edital de 2021 | Edital 2021 (ausência de previsão) |
+| Escolaridade (efeito prático na idade) | Diploma de nível superior em qualquer área - não é regra de idade, mas é o filtro que na prática eleva a idade de entrada | Edital 2021, itens 2.1 e 3.3 |
+| CNH categoria B | Categoria "B" ou superior, válida, sem impedimentos, sem adaptação veicular e sem restrição de locais/horários — exigida também durante todo o Curso de Formação | Edital 2021, itens 3.9 e 13.3-b |
+| Teto de idade na carreira | Aposentadoria compulsória aos 75 anos - único limite etário que existe, e ele é na saída, não na entrada | Lei Complementar nº 152/2015 |
+| Limite de idade em edital futuro | Só é legítimo se previsto em lei E justificado pela natureza das atribuições do cargo - edital sozinho não cria limite | Súmula 683 do STF |
+
+
+**Fontes primárias:**
+
+- Edital nº 1 — PRF, de 18 de janeiro de 2021 (Cebraspe): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF
+- Lei nº 8.112/1990, art. 5º, V (idade mínima de 18 anos como requisito de investidura em cargo público federal)
+- Lei Complementar nº 152/2015 (aposentadoria compulsória do servidor público aos 75 anos)
+- Súmula 683 do Supremo Tribunal Federal (limite de idade em concurso só se legitima quando justificado pela natureza das atribuições do cargo)
 
 ## Notas de corte do concurso PRF 2021: objetiva e final, por lista
 
