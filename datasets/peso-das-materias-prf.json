@@ -1,12 +1,12 @@
 {
   "dataset": "Estrutura da prova da PRF por matéria: blocos oficiais × catálogo de estudo",
   "url": "https://escutapolicial.com.br/dados/peso-das-materias-prf/",
-  "atualizadoEm": "2026-07-19",
+  "atualizadoEm": "2026-07-28",
   "licenca": "CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/",
   "citacao": "Escuta Policial - PRF em Números. \"Estrutura da prova da PRF por matéria: blocos oficiais × catálogo de estudo\". Disponível em: https://escutapolicial.com.br/dados/peso-das-materias-prf/. Dados compilados de fontes oficiais (DOU, Cebraspe/CESPE). Licença CC BY 4.0.",
   "fontes": [
     "Edital nº 1 — PRF, de 2021 (Cebraspe): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF — itens 9 (prova objetiva, critérios 9.12) e 24 (objetos de avaliação, composição dos blocos)",
-    "Peso editorial, aulas e minutos de áudio: catálogo do Escuta Policial (https://escutapolicial.com.br/aulas/), atualizado em 19 de julho de 2026"
+    "Peso editorial, aulas e minutos de áudio: catálogo do Escuta Policial (https://escutapolicial.com.br/aulas/), atualizado em 28 de julho de 2026"
   ],
   "colunas": [
     "materia",
@@ -23,7 +23,7 @@
       15,
       4,
       6,
-      83
+      74
     ],
     [
       "Raciocínio Lógico-Matemático",
@@ -31,7 +31,7 @@
       15,
       3,
       6,
-      82
+      68
     ],
     [
       "Informática",
@@ -39,7 +39,7 @@
       15,
       3,
       3,
-      40
+      27
     ],
     [
       "Física",
@@ -47,7 +47,7 @@
       15,
       2,
       3,
-      37
+      29
     ],
     [
       "Ética e Cidadania",
@@ -55,7 +55,7 @@
       15,
       2,
       3,
-      35
+      39
     ],
     [
       "Geopolítica",
@@ -63,7 +63,7 @@
       15,
       2,
       3,
-      37
+      36
     ],
     [
       "Língua Estrangeira (Inglês ou Espanhol)",
@@ -71,15 +71,15 @@
       15,
       2,
       2,
-      21
+      18
     ],
     [
       "Legislação de Trânsito (CTB)",
       "II",
       10,
       5,
-      12,
-      151
+      14,
+      224
     ],
     [
       "Direito Administrativo",
@@ -87,7 +87,7 @@
       10,
       4,
       6,
-      72
+      68
     ],
     [
       "Direito Constitucional",
@@ -95,7 +95,7 @@
       10,
       4,
       4,
-      55
+      42
     ],
     [
       "Direito Penal",
@@ -103,7 +103,7 @@
       10,
       4,
       2,
-      26
+      21
     ],
     [
       "Direito Processual Penal",
@@ -111,7 +111,7 @@
       10,
       3,
       4,
-      49
+      43
     ],
     [
       "Legislação Especial",
@@ -119,7 +119,7 @@
       10,
       3,
       1,
-      11
+      15
     ],
     [
       "Direitos Humanos",
@@ -127,7 +127,7 @@
       10,
       3,
       3,
-      38
+      52
     ]
   ]
 }
