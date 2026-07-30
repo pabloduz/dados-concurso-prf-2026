@@ -81,22 +81,23 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 | Raciocínio Lógico-Matemático | I | 15 | 3 | 6 | 68 |
 | Informática | I | 15 | 3 | 3 | 27 |
 | Física | I | 15 | 2 | 3 | 29 |
-| Ética e Cidadania | I | 15 | 2 | 5 | 60 |
+| Ética e Cidadania | I | 15 | 2 | 6 | 81 |
 | Geopolítica | I | 15 | 2 | 3 | 37 |
 | Língua Estrangeira (Inglês ou Espanhol) | I | 15 | 2 | 2 | 20 |
 | Legislação de Trânsito (CTB) | II | 10 | 5 | 14 | 226 |
 | Direito Administrativo | III | 10 | 4 | 10 | 111 |
 | Direito Constitucional | III | 10 | 4 | 8 | 81 |
-| Direito Penal | III | 10 | 4 | 2 | 21 |
-| Direito Processual Penal | III | 10 | 3 | 4 | 43 |
+| Direito Penal | III | 10 | 4 | 10 | 141 |
+| Direito Processual Penal | III | 10 | 3 | 6 | 74 |
 | Legislação Especial | III | 10 | 3 | 1 | 15 |
 | Direitos Humanos | III | 10 | 3 | 3 | 52 |
+| Noções de Arquivologia | – | – | 3 | 1 | 21 |
 
 
 **Fontes primárias:**
 
 - Edital nº 1 — PRF, de 2021 (Cebraspe): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF — itens 9 (prova objetiva, critérios 9.12) e 24 (objetos de avaliação, composição dos blocos)
-- Peso editorial, aulas e minutos de áudio: catálogo do Escuta Policial (https://escutapolicial.com.br/aulas/), atualizado em 29 de julho de 2026
+- Peso editorial, aulas e minutos de áudio: catálogo do Escuta Policial (https://escutapolicial.com.br/aulas/), atualizado em 30 de julho de 2026
 
 ## 🌡️ Termômetro do Edital PRF - índice diário de aquecimento (0-100)
 
@@ -105,21 +106,8 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 | data | score | fase_oficial | noticias_30d |
 | --- | --- | --- | --- |
 | 2026-07-30 | 39 | pre-edital | 14 |
-| 2026-07-29 | 35 | pre-edital | 11 |
-| 2026-07-28 | 35 | pre-edital | 11 |
-| 2026-07-27 | 34 | pre-edital | 10 |
-| 2026-07-26 | 34 | pre-edital | 10 |
-| 2026-07-25 | 34 | pre-edital | 10 |
-| 2026-07-24 | 34 | pre-edital | 10 |
-| 2026-07-23 | 32 | pre-edital | 8 |
-| 2026-07-22 | 29 | pre-edital | 6 |
-| 2026-07-21 | 29 | pre-edital | 6 |
-| 2026-07-20 | 29 | pre-edital | 6 |
-| 2026-07-19 | 29 | pre-edital | 6 |
-| 2026-07-18 | 37 | pre-edital | 11 |
-| 2026-07-17 | 40 | pre-edital | 13 |
 
-*Últimos 14 dias - a série completa, um ponto por dia (calendário de Brasília), está no [CSV](datasets/termometro-edital-prf.csv)/[JSON](datasets/termometro-edital-prf.json). Fórmula pública e determinística na [página da metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/).*
+*Últimos 1 dias - a série completa, um ponto por dia (calendário de Brasília), está no [CSV](datasets/termometro-edital-prf.csv)/[JSON](datasets/termometro-edital-prf.json). Fórmula pública e determinística na [página da metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/).*
 
 **Fontes primárias:**
 
