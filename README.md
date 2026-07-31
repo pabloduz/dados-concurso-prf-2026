@@ -83,7 +83,7 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 | Física | I | 15 | 2 | 3 | 29 |
 | Ética e Cidadania | I | 15 | 2 | 6 | 81 |
 | Geopolítica | I | 15 | 2 | 3 | 37 |
-| Língua Estrangeira (Inglês ou Espanhol) | I | 15 | 2 | 3 | 30 |
+| Língua Estrangeira (Inglês ou Espanhol) | I | 15 | 2 | 3 | 31 |
 | Legislação de Trânsito (CTB) | II | 10 | 5 | 14 | 226 |
 | Direito Administrativo | III | 10 | 4 | 10 | 111 |
 | Direito Constitucional | III | 10 | 4 | 8 | 81 |
