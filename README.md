@@ -2,7 +2,7 @@
 
 > Fatos do concurso da PRF compilados de **fontes primárias** (Diário Oficial da União, editais e PDFs oficiais do Cebraspe/CESPE) e atualizados automaticamente: um robô do [Escuta Policial](https://escutapolicial.com.br/dados/) lê o DOU a cada ~20 minutos e este repositório é espelhado a cada varredura do Radar (5x por dia).
 
-**🌡️ Termômetro do Edital PRF em 31/07/2026: `41/100` - aquecendo forte** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
+**🌡️ Termômetro do Edital PRF em 31/07/2026: `39/100` - em aquecimento** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
 
 - **Licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt-br)**: copie, republique e adapte (inclusive comercialmente), **citando "Escuta Policial" com link** para https://escutapolicial.com.br/dados/.
 - Nenhum número entra sem ato oficial: célula sem fonte fica vazia - preferimos a lacuna ao chute.
@@ -83,7 +83,7 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 | Física | I | 15 | 2 | 3 | 29 |
 | Ética e Cidadania | I | 15 | 2 | 6 | 81 |
 | Geopolítica | I | 15 | 2 | 3 | 37 |
-| Língua Estrangeira (Inglês ou Espanhol) | I | 15 | 2 | 2 | 20 |
+| Língua Estrangeira (Inglês ou Espanhol) | I | 15 | 2 | 3 | 30 |
 | Legislação de Trânsito (CTB) | II | 10 | 5 | 14 | 226 |
 | Direito Administrativo | III | 10 | 4 | 10 | 111 |
 | Direito Constitucional | III | 10 | 4 | 8 | 81 |
@@ -97,7 +97,7 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 **Fontes primárias:**
 
 - Edital nº 1 — PRF, de 2021 (Cebraspe): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF — itens 9 (prova objetiva, critérios 9.12) e 24 (objetos de avaliação, composição dos blocos)
-- Peso editorial, aulas e minutos de áudio: catálogo do Escuta Policial (https://escutapolicial.com.br/aulas/), atualizado em 30 de julho de 2026
+- Peso editorial, aulas e minutos de áudio: catálogo do Escuta Policial (https://escutapolicial.com.br/aulas/), atualizado em 31 de julho de 2026
 
 ## 🌡️ Termômetro do Edital PRF - índice diário de aquecimento (0-100)
 
@@ -105,7 +105,7 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 
 | data | score | fase_oficial | noticias_30d |
 | --- | --- | --- | --- |
-| 2026-07-31 | 41 | pre-edital | 15 |
+| 2026-07-31 | 39 | pre-edital | 14 |
 | 2026-07-30 | 41 | pre-edital | 15 |
 
 *Últimos 2 dias - a série completa, um ponto por dia (calendário de Brasília), está no [CSV](datasets/termometro-edital-prf.csv)/[JSON](datasets/termometro-edital-prf.json). Fórmula pública e determinística na [página da metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/).*
