@@ -22,6 +22,8 @@
 | Idade para o concurso da PRF: mínima, máxima e o que diz a lei | [CSV](datasets/idade-para-prf.csv) · [JSON](datasets/idade-para-prf.json) | [escutapolicial.com.br/dados/idade-para-prf/](https://escutapolicial.com.br/dados/idade-para-prf/) |
 | Notas de corte do concurso PRF 2021: objetiva e final, por lista | [CSV](datasets/notas-de-corte-prf-2021.csv) · [JSON](datasets/notas-de-corte-prf-2021.json) | [escutapolicial.com.br/dados/notas-de-corte-prf-2021/](https://escutapolicial.com.br/dados/notas-de-corte-prf-2021/) |
 | Quantas questões acertar na PRF: a conta do Certo/Errado da Cebraspe | [CSV](datasets/quantas-questoes-acertar-prf.csv) · [JSON](datasets/quantas-questoes-acertar-prf.json) | [escutapolicial.com.br/dados/quantas-questoes-acertar-prf/](https://escutapolicial.com.br/dados/quantas-questoes-acertar-prf/) |
+| Calculadora de tempo para percorrer o acervo PRF e a carga complementar | [CSV](datasets/tempo-para-zerar-edital-prf.csv) · [JSON](datasets/tempo-para-zerar-edital-prf.json) | [escutapolicial.com.br/dados/tempo-para-zerar-edital-prf/](https://escutapolicial.com.br/dados/tempo-para-zerar-edital-prf/) |
+| Calculadora de custo total para o concurso da PRF | [CSV](datasets/custo-total-para-concurso-prf.csv) · [JSON](datasets/custo-total-para-concurso-prf.json) | [escutapolicial.com.br/dados/custo-total-para-concurso-prf/](https://escutapolicial.com.br/dados/custo-total-para-concurso-prf/) |
 | Quem as IAs citam para estudar para a PRF (monitor mensal) | [CSV](datasets/presenca-ia.csv) · [JSON](datasets/presenca-ia.json) | [escutapolicial.com.br/dados/presenca-ia/](https://escutapolicial.com.br/dados/presenca-ia/) |
 
 ## Linha do tempo real dos concursos da PRF (2013-2026)
@@ -156,6 +158,9 @@ Quanto ganha um Policial Rodoviário Federal? Subsídio inicial de R$ 12.253,84,
 
 - Lei nº 14.875, de 31 de maio de 2024, Anexo XXVII: https://www2.camara.leg.br/legin/fed/lei/2024/lei-14875-31-maio-2024-795709-anexo-pl.pdf (DOU de 31/05/2024, Seção 1, Edição Extra; texto também em https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14875.htm)
 - Edital nº 1 — PRF, de 18 de janeiro de 2021 (Cebraspe), item 2.3: https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF
+- Portaria Interministerial MPS/MF nº 13/2026, Anexo III: https://bibliotecadigital.gestao.gov.br/bitstream/123456789/534241/1/PORTARIA%20INTERMINISTERIAL%20MPS_MF%20N%C2%BA%2013%2C%20DE%209%20DE%20JANEIRO%20DE%202026%20-%20PORTARIA%20INTERMINISTERIAL%20MPS_MF%20N%C2%BA%2013%2C%20DE%209%20DE%20JANEIRO%20DE%202026%20-%20DOU%20-%20Imprensa%20Nacional.pdf
+- Receita Federal, tributação mensal de 2026: https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026
+- Portal do Servidor, regime de previdência complementar: https://www.gov.br/servidor/pt-br/assuntos/funpresp/migracao-para-regime-de-previdencia-complementar-1
 
 ## TAF da PRF: índices oficiais do teste de aptidão física (edital 2021)
 
@@ -321,7 +326,7 @@ Nota de corte da PRF 2021 na ampla concorrência: 73,0 na objetiva, 83,0 no fina
 
 ## Quantas questões acertar na PRF: a conta do Certo/Errado da Cebraspe
 
-Na PRF a prova é Certo/Errado: cada erro anula um acerto. Para a nota de corte de 73 da ampla concorrência em 2021 eram necessários 97 acertos em 120 itens. Veja a conta por lista.
+Na PRF a prova é Certo/Errado: cada erro anula um acerto. Sem itens em branco, 97 acertos e 23 erros produzem nota 74, a menor nota capaz de superar o corte 73 de 2021.
 
 | lista | nota_de_corte | acertos_necessarios | erros_tolerados |
 | --- | --- | --- | --- |
@@ -335,6 +340,44 @@ Na PRF a prova é Certo/Errado: cada erro anula um acerto. Para a nota de corte 
 - Edital Concurso PRF nº 11, de 27 de maio de 2021 (Cebraspe) — resultado final na prova objetiva e resultado provisório na prova discursiva: https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ED_11_PRF_2021_FINAL_OBJETIVA_PROV_DISCURSIVA.PDF
 - Edital nº 1 - PRF/2021, subitem 9.12.2 (regra de pontuação: item certo +1,00, item errado -1,00, item em branco 0,00)
 - Edital nº 1 - PRF/2021 (notas mínimas por bloco de matérias e no conjunto dos blocos, prova objetiva)
+
+## Calculadora de tempo para percorrer o acervo PRF e a carga complementar
+
+Calcule semanas para percorrer o acervo atual e somar horas complementares, revisões e questões — sem confundir o catálogo parcial com o edital inteiro.
+
+| cenario | fator | interpretacao |
+| --- | --- | --- |
+| Otimista | 0.85 | ritmo estável, poucas interrupções e revisão eficiente |
+| Base | 1 | carga calculada sem desconto nem contingência |
+| Conservador | 1.25 | margem para imprevistos, retomadas e semanas incompletas |
+
+
+**Fontes primárias:**
+
+- Edital nº 1 — PRF, de 2021 (Cebraspe): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF — itens 9 (prova objetiva, critérios 9.12) e 24 (objetos de avaliação, composição dos blocos)
+- Catálogo editorial do Escuta Policial: https://escutapolicial.com.br/aulas/ (83 aulas, 1.066 minutos no snapshot gerado)
+- Fórmula editorial v1.0 documentada na página; valores individuais são informados pelo usuário e não são enviados ao servidor
+
+## Calculadora de custo total para o concurso da PRF
+
+Some inscrição, materiais, CNH, exames, TAF, viagem e reserva do curso de formação. Você informa os preços; a calculadora não inventa uma média nacional.
+
+| categoria | o_que_incluir |
+| --- | --- |
+| Inscrição | Taxa do concurso; deixe zero enquanto não houver novo edital |
+| Materiais e cursos | Livros, plataforma, banco de questões e impressões |
+| CNH | Obtenção, renovação ou mudança de categoria, se necessária |
+| Exames e documentos | Atestados, exames, certidões e deslocamentos locais |
+| Preparação para o TAF | Academia, pista, avaliação e acompanhamento |
+| Viagem para provas | Transporte, hospedagem e alimentação |
+| Curso de formação | Reserva pessoal para o período; não é preço oficial |
+| Outros | Custos particulares não cobertos nas categorias anteriores |
+
+
+**Fontes primárias:**
+
+- Metodologia editorial v1.0 do Escuta Policial: soma dos valores informados + contingência percentual, dividida pelo horizonte opcional
+- Valores individuais são informados pelo usuário e processados localmente; a página não publica preço médio nacional
 
 ## Quem as IAs citam para estudar para a PRF (monitor mensal)
 

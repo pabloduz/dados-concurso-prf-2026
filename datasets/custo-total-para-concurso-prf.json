@@ -1,0 +1,49 @@
+{
+  "dataset": "Calculadora de custo total para o concurso da PRF",
+  "url": "https://escutapolicial.com.br/dados/custo-total-para-concurso-prf/",
+  "atualizadoEm": "2026-08-09",
+  "licenca": "CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/",
+  "citacao": "Escuta Policial - PRF em Números. \"Calculadora de custo total para o concurso da PRF\". Disponível em: https://escutapolicial.com.br/dados/custo-total-para-concurso-prf/. Dados compilados de fontes oficiais (DOU, Cebraspe/CESPE). Licença CC BY 4.0.",
+  "fontes": [
+    "Metodologia editorial v1.0 do Escuta Policial: soma dos valores informados + contingência percentual, dividida pelo horizonte opcional",
+    "Valores individuais são informados pelo usuário e processados localmente; a página não publica preço médio nacional"
+  ],
+  "colunas": [
+    "categoria",
+    "o_que_incluir"
+  ],
+  "linhas": [
+    [
+      "Inscrição",
+      "Taxa do concurso; deixe zero enquanto não houver novo edital"
+    ],
+    [
+      "Materiais e cursos",
+      "Livros, plataforma, banco de questões e impressões"
+    ],
+    [
+      "CNH",
+      "Obtenção, renovação ou mudança de categoria, se necessária"
+    ],
+    [
+      "Exames e documentos",
+      "Atestados, exames, certidões e deslocamentos locais"
+    ],
+    [
+      "Preparação para o TAF",
+      "Academia, pista, avaliação e acompanhamento"
+    ],
+    [
+      "Viagem para provas",
+      "Transporte, hospedagem e alimentação"
+    ],
+    [
+      "Curso de formação",
+      "Reserva pessoal para o período; não é preço oficial"
+    ],
+    [
+      "Outros",
+      "Custos particulares não cobertos nas categorias anteriores"
+    ]
+  ]
+}

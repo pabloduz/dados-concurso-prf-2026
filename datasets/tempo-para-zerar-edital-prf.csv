@@ -1,0 +1,4 @@
+cenario,fator,interpretacao
+Otimista,0.85,"ritmo estável, poucas interrupções e revisão eficiente"
+Base,1,carga calculada sem desconto nem contingência
+Conservador,1.25,"margem para imprevistos, retomadas e semanas incompletas"

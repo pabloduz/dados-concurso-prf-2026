@@ -1,12 +1,15 @@
 {
   "dataset": "Salário do Policial Rodoviário Federal: tabela oficial de subsídio (Lei 14.875/2024)",
   "url": "https://escutapolicial.com.br/dados/salario-prf/",
-  "atualizadoEm": "2026-07-19",
+  "atualizadoEm": "2026-08-09",
   "licenca": "CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/",
   "citacao": "Escuta Policial - PRF em Números. \"Salário do Policial Rodoviário Federal: tabela oficial de subsídio (Lei 14.875/2024)\". Disponível em: https://escutapolicial.com.br/dados/salario-prf/. Dados compilados de fontes oficiais (DOU, Cebraspe/CESPE). Licença CC BY 4.0.",
   "fontes": [
     "Lei nº 14.875, de 31 de maio de 2024, Anexo XXVII: https://www2.camara.leg.br/legin/fed/lei/2024/lei-14875-31-maio-2024-795709-anexo-pl.pdf (DOU de 31/05/2024, Seção 1, Edição Extra; texto também em https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14875.htm)",
-    "Edital nº 1 — PRF, de 18 de janeiro de 2021 (Cebraspe), item 2.3: https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF"
+    "Edital nº 1 — PRF, de 18 de janeiro de 2021 (Cebraspe), item 2.3: https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF",
+    "Portaria Interministerial MPS/MF nº 13/2026, Anexo III: https://bibliotecadigital.gestao.gov.br/bitstream/123456789/534241/1/PORTARIA%20INTERMINISTERIAL%20MPS_MF%20N%C2%BA%2013%2C%20DE%209%20DE%20JANEIRO%20DE%202026%20-%20PORTARIA%20INTERMINISTERIAL%20MPS_MF%20N%C2%BA%2013%2C%20DE%209%20DE%20JANEIRO%20DE%202026%20-%20DOU%20-%20Imprensa%20Nacional.pdf",
+    "Receita Federal, tributação mensal de 2026: https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026",
+    "Portal do Servidor, regime de previdência complementar: https://www.gov.br/servidor/pt-br/assuntos/funpresp/migracao-para-regime-de-previdencia-complementar-1"
   ],
   "colunas": [
     "classe",
