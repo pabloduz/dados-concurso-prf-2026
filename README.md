@@ -2,7 +2,7 @@
 
 > Fatos do concurso da PRF compilados de **fontes primárias** (Diário Oficial da União, editais e PDFs oficiais do Cebraspe/CESPE) e atualizados automaticamente: um robô do [Escuta Policial](https://escutapolicial.com.br/dados/) lê o DOU a cada ~20 minutos e este repositório é espelhado a cada varredura do Radar (5x por dia).
 
-**🌡️ Termômetro do Edital PRF em 07/08/2026: `40/100` - aquecendo forte** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
+**🌡️ Termômetro do Edital PRF em 09/08/2026: `40/100` - aquecendo forte** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
 
 - **Licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt-br)**: copie, republique e adapte (inclusive comercialmente), **citando "Escuta Policial" com link** para https://escutapolicial.com.br/dados/.
 - Nenhum número entra sem ato oficial: célula sem fonte fica vazia - preferimos a lacuna ao chute.
@@ -21,6 +21,7 @@
 | Requisitos e etapas do concurso da PRF (edital 2021) | [CSV](datasets/requisitos-prf.csv) · [JSON](datasets/requisitos-prf.json) | [escutapolicial.com.br/dados/requisitos-prf/](https://escutapolicial.com.br/dados/requisitos-prf/) |
 | Idade para o concurso da PRF: mínima, máxima e o que diz a lei | [CSV](datasets/idade-para-prf.csv) · [JSON](datasets/idade-para-prf.json) | [escutapolicial.com.br/dados/idade-para-prf/](https://escutapolicial.com.br/dados/idade-para-prf/) |
 | Notas de corte do concurso PRF 2021: objetiva e final, por lista | [CSV](datasets/notas-de-corte-prf-2021.csv) · [JSON](datasets/notas-de-corte-prf-2021.json) | [escutapolicial.com.br/dados/notas-de-corte-prf-2021/](https://escutapolicial.com.br/dados/notas-de-corte-prf-2021/) |
+| Quantas questões acertar na PRF: a conta do Certo/Errado da Cebraspe | [CSV](datasets/quantas-questoes-acertar-prf.csv) · [JSON](datasets/quantas-questoes-acertar-prf.json) | [escutapolicial.com.br/dados/quantas-questoes-acertar-prf/](https://escutapolicial.com.br/dados/quantas-questoes-acertar-prf/) |
 | Quem as IAs citam para estudar para a PRF (monitor mensal) | [CSV](datasets/presenca-ia.csv) · [JSON](datasets/presenca-ia.json) | [escutapolicial.com.br/dados/presenca-ia/](https://escutapolicial.com.br/dados/presenca-ia/) |
 
 ## Linha do tempo real dos concursos da PRF (2013-2026)
@@ -105,6 +106,8 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 
 | data | score | fase_oficial | noticias_30d |
 | --- | --- | --- | --- |
+| 2026-08-09 | 40 | pre-edital | 15 |
+| 2026-08-08 | 40 | pre-edital | 15 |
 | 2026-08-07 | 40 | pre-edital | 15 |
 | 2026-08-06 | 40 | pre-edital | 15 |
 | 2026-08-05 | 41 | pre-edital | 16 |
@@ -115,7 +118,7 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 | 2026-07-31 | 39 | pre-edital | 14 |
 | 2026-07-30 | 41 | pre-edital | 15 |
 
-*Últimos 9 dias - a série completa, um ponto por dia (calendário de Brasília), está no [CSV](datasets/termometro-edital-prf.csv)/[JSON](datasets/termometro-edital-prf.json). Fórmula pública e determinística na [página da metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/).*
+*Últimos 11 dias - a série completa, um ponto por dia (calendário de Brasília), está no [CSV](datasets/termometro-edital-prf.csv)/[JSON](datasets/termometro-edital-prf.json). Fórmula pública e determinística na [página da metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/).*
 
 **Fontes primárias:**
 
@@ -315,6 +318,23 @@ Nota de corte da PRF 2021 na ampla concorrência: 73,0 na objetiva, 83,0 no fina
 - Edital nº 1 — PRF, de 18 de janeiro de 2021 (Cebraspe) — abertura, itens 4 (vagas), 9.12 (pontuação) e 10.6.1 (limite de correção da discursiva por lista), quadro do item 21 (pontuação máxima do certame): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF
 - Edital Concurso PRF nº 12, de 2021 (Cebraspe) — resultado final na prova discursiva e convocação para o exame de aptidão física (TAF): https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ED_12_PRF_2021_FINAL_DISCURSIVA_CONV_TAF_FIP_MATRCULA.PDF
 - Edital Concurso PRF nº 13, de 16 de junho de 2021 (Cebraspe) — retificação, por erro material, da nota final na prova objetiva de uma candidata (inscrição 10031927, nota corrigida para 74,00): https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ed_13_prf_2021_ret_nota.pdf
+
+## Quantas questões acertar na PRF: a conta do Certo/Errado da Cebraspe
+
+Na PRF a prova é Certo/Errado: cada erro anula um acerto. Para a nota de corte de 73 da ampla concorrência em 2021 eram necessários 97 acertos em 120 itens. Veja a conta por lista.
+
+| lista | nota_de_corte | acertos_necessarios | erros_tolerados |
+| --- | --- | --- | --- |
+| Ampla concorrência | 73 | 97 | 23 |
+| Negros | 69 | 95 | 25 |
+| PCD | 50 | 85 | 35 |
+
+
+**Fontes primárias:**
+
+- Edital Concurso PRF nº 11, de 27 de maio de 2021 (Cebraspe) — resultado final na prova objetiva e resultado provisório na prova discursiva: https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ED_11_PRF_2021_FINAL_OBJETIVA_PROV_DISCURSIVA.PDF
+- Edital nº 1 - PRF/2021, subitem 9.12.2 (regra de pontuação: item certo +1,00, item errado -1,00, item em branco 0,00)
+- Edital nº 1 - PRF/2021 (notas mínimas por bloco de matérias e no conjunto dos blocos, prova objetiva)
 
 ## Quem as IAs citam para estudar para a PRF (monitor mensal)
 

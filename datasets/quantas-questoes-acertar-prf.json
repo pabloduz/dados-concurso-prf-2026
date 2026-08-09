@@ -1,0 +1,38 @@
+{
+  "dataset": "Quantas questões acertar na PRF: a conta do Certo/Errado da Cebraspe",
+  "url": "https://escutapolicial.com.br/dados/quantas-questoes-acertar-prf/",
+  "atualizadoEm": "2026-08-08",
+  "licenca": "CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/",
+  "citacao": "Escuta Policial - PRF em Números. \"Quantas questões acertar na PRF: a conta do Certo/Errado da Cebraspe\". Disponível em: https://escutapolicial.com.br/dados/quantas-questoes-acertar-prf/. Dados compilados de fontes oficiais (DOU, Cebraspe/CESPE). Licença CC BY 4.0.",
+  "fontes": [
+    "Edital Concurso PRF nº 11, de 27 de maio de 2021 (Cebraspe) — resultado final na prova objetiva e resultado provisório na prova discursiva: https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ED_11_PRF_2021_FINAL_OBJETIVA_PROV_DISCURSIVA.PDF",
+    "Edital nº 1 - PRF/2021, subitem 9.12.2 (regra de pontuação: item certo +1,00, item errado -1,00, item em branco 0,00)",
+    "Edital nº 1 - PRF/2021 (notas mínimas por bloco de matérias e no conjunto dos blocos, prova objetiva)"
+  ],
+  "colunas": [
+    "lista",
+    "nota_de_corte",
+    "acertos_necessarios",
+    "erros_tolerados"
+  ],
+  "linhas": [
+    [
+      "Ampla concorrência",
+      73,
+      97,
+      23
+    ],
+    [
+      "Negros",
+      69,
+      95,
+      25
+    ],
+    [
+      "PCD",
+      50,
+      85,
+      35
+    ]
+  ]
+}
