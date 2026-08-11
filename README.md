@@ -82,7 +82,7 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 | --- | --- | --- | --- | --- | --- |
 | Língua Portuguesa | I | 15 | 4 | 6 | 74 |
 | Raciocínio Lógico-Matemático | I | 15 | 3 | 6 | 68 |
-| Informática | I | 15 | 3 | 3 | 27 |
+| Informática | I | 15 | 3 | 4 | 41 |
 | Física | I | 15 | 2 | 3 | 29 |
 | Ética e Cidadania | I | 15 | 2 | 6 | 81 |
 | Geopolítica | I | 15 | 2 | 3 | 37 |
@@ -92,9 +92,11 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 | Direito Constitucional | III | 10 | 4 | 8 | 81 |
 | Direito Penal | III | 10 | 4 | 10 | 141 |
 | Direito Processual Penal | III | 10 | 3 | 6 | 74 |
-| Legislação Especial | III | 10 | 3 | 1 | 15 |
+| Legislação Especial | III | 10 | 3 | 4 | 47 |
 | Direitos Humanos | III | 10 | 3 | 3 | 52 |
-| Noções de Arquivologia | – | – | 3 | 1 | 21 |
+| Noções de Administração | – | – | 3 | 1 | 12 |
+| Noções de Arquivologia | – | – | 3 | 3 | 46 |
+| Legislação relativa à PRF | – | – | 3 | 1 | 12 |
 
 
 **Fontes primárias:**
@@ -357,7 +359,7 @@ Calcule semanas para percorrer o acervo atual e somar horas complementares, revi
 **Fontes primárias:**
 
 - Edital nº 1 — PRF, de 2021 (Cebraspe): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF — itens 9 (prova objetiva, critérios 9.12) e 24 (objetos de avaliação, composição dos blocos)
-- Catálogo editorial do Escuta Policial: https://escutapolicial.com.br/aulas/ (83 aulas, 1.066 minutos no snapshot gerado)
+- Catálogo editorial do Escuta Policial: https://escutapolicial.com.br/aulas/ (91 aulas, 1.162 minutos no snapshot gerado)
 - Fórmula editorial v1.0 documentada na página; valores individuais são informados pelo usuário e não são enviados ao servidor
 
 ## Calculadora de custo total para o concurso da PRF

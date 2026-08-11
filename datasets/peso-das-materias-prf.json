@@ -38,8 +38,8 @@
       "I",
       15,
       3,
-      3,
-      27
+      4,
+      41
     ],
     [
       "Física",
@@ -118,8 +118,8 @@
       "III",
       10,
       3,
-      1,
-      15
+      4,
+      47
     ],
     [
       "Direitos Humanos",
@@ -130,12 +130,28 @@
       52
     ],
     [
-      "Noções de Arquivologia",
+      "Noções de Administração",
       null,
       null,
       3,
       1,
-      21
+      12
+    ],
+    [
+      "Noções de Arquivologia",
+      null,
+      null,
+      3,
+      3,
+      46
+    ],
+    [
+      "Legislação relativa à PRF",
+      null,
+      null,
+      3,
+      1,
+      12
     ]
   ]
 }
