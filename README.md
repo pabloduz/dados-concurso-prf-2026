@@ -261,7 +261,7 @@ Como é o TAF da PRF? 5 testes eliminatórios (barra fixa, shuttle run, impulsã
 
 ## Requisitos e etapas do concurso da PRF (edital 2021)
 
-Requisitos do concurso PRF: nível superior em qualquer área e CNH B. O edital de 2021 não exigiu idade máxima, altura mínima nem vetou tatuagem. Taxa: R$ 180.
+Requisitos PRF: nível superior em qualquer área e CNH B. Em 2021 não houve idade máxima, altura mínima nem veto geral a tatuagem. Taxa: R$ 180.
 
 | requisito | exigencia | fonte_oficial |
 | --- | --- | --- |
@@ -310,7 +310,7 @@ Não existe idade máxima para o concurso da PRF: o edital de 2021 não previu l
 
 ## Notas de corte do concurso PRF 2021: objetiva e final, por lista
 
-Nota de corte da PRF 2021 na ampla concorrência: 73,0 na objetiva, 83,0 no final. Cortes de negros e PCD, com fonte no Cebraspe.
+Nota de corte PRF 2021 na ampla: 73,0 na objetiva e 83,0 no corte final para convocação ao TAF. Veja negros, PCD e fontes do Cebraspe.
 
 | lista | fase | candidatos | nota_minima | nota_maxima | pontuacao_maxima_da_fase |
 | --- | --- | --- | --- | --- | --- |
