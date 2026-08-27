@@ -2,7 +2,7 @@
 
 > Fatos do concurso da PRF compilados de **fontes primárias** (Diário Oficial da União, editais e PDFs oficiais do Cebraspe/CESPE) e atualizados automaticamente: um robô do [Escuta Policial](https://escutapolicial.com.br/dados/) lê o DOU a cada ~20 minutos e este repositório é espelhado a cada varredura do Radar (5x por dia).
 
-**🌡️ Termômetro do Edital PRF em 26/08/2026: `53/100` - aquecendo forte** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
+**🌡️ Termômetro do Edital PRF em 27/08/2026: `54/100` - aquecendo forte** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
 
 - **Licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt-br)**: copie, republique e adapte (inclusive comercialmente), **citando "Escuta Policial" com link** para https://escutapolicial.com.br/dados/.
 - Nenhum número entra sem ato oficial: célula sem fonte fica vazia - preferimos a lacuna ao chute.
@@ -26,7 +26,7 @@
 | Calculadora de custo total para o concurso da PRF | [CSV](datasets/custo-total-para-concurso-prf.csv) · [JSON](datasets/custo-total-para-concurso-prf.json) | [escutapolicial.com.br/dados/custo-total-para-concurso-prf/](https://escutapolicial.com.br/dados/custo-total-para-concurso-prf/) |
 | Quem as IAs citam para estudar para a PRF (monitor mensal) | [CSV](datasets/presenca-ia.csv) · [JSON](datasets/presenca-ia.json) | [escutapolicial.com.br/dados/presenca-ia/](https://escutapolicial.com.br/dados/presenca-ia/) |
 
-## Linha do tempo real dos concursos da PRF (2013-2026)
+## [Linha do tempo real dos concursos da PRF (2013-2026)](https://escutapolicial.com.br/dados/linha-do-tempo-concurso-prf/)
 
 Quanto tempo da autorização ao edital da PRF? Ele saiu 26 dias após a autorização em 2021 e 124 dias em 2018/19. Datas oficiais de 2013, 2018/19 e 2021.
 
@@ -51,7 +51,7 @@ Quanto tempo da autorização ao edital da PRF? Ele saiu 26 dias após a autoriz
 - Pedido de 533 vagas (269 policial + 264 administrativo) noticiado a partir de ofício da PRF ao MGI; verificado em fontes públicas em 14/07/2026
 - Prorrogação da validade do concurso 2021 até 21/12/2026 (DOU)
 
-## Concorrência e abstenção do concurso PRF (2013-2021)
+## [Concorrência e abstenção do concurso PRF (2013-2021)](https://escutapolicial.com.br/dados/concorrencia-prf/)
 
 Quantos inscritos tem o concurso da PRF? 304.330 em 2021 (202,9 por vaga), 129.152 em 2018/19 e 109.769 em 2013. Números oficiais de demanda e abstenção.
 
@@ -74,7 +74,7 @@ Quantos inscritos tem o concurso da PRF? 304.330 em 2021 (202,9 por vaga), 129.1
 - Edital nº 1 — DPRF 2013, CESPE/UnB (cespe.unb.br/concursos/dprf_13)
 - Demanda oficial de candidatos, CESPE/UnB, 02/08/2013: http://www.cespe.unb.br/concursos/DPRF_13/arquivos/DEMANDA_DPRF_13.PDF (109.769 inscritos, 1.000 vagas, demanda 109,77)
 
-## Estrutura da prova da PRF por matéria: blocos oficiais × catálogo de estudo
+## [Estrutura da prova da PRF por matéria: blocos oficiais × catálogo de estudo](https://escutapolicial.com.br/dados/peso-das-materias-prf/)
 
 Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota mínima própria. Estrutura oficial de 2021 (blocos e notas mínimas) por matéria.
 
@@ -104,12 +104,13 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 - Edital nº 1 — PRF, de 2021 (Cebraspe): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF — itens 9 (prova objetiva, critérios 9.12) e 24 (objetos de avaliação, composição dos blocos)
 - Peso editorial, aulas e minutos de áudio: catálogo do Escuta Policial (https://escutapolicial.com.br/aulas/), atualizado em 31 de julho de 2026
 
-## 🌡️ Termômetro do Edital PRF - índice diário de aquecimento (0-100)
+## 🌡️ [Termômetro do Edital PRF - índice diário de aquecimento (0-100)](https://escutapolicial.com.br/dados/termometro-edital-prf/)
 
 Índice diário (0-100) de aquecimento do edital da PRF: fase oficial no DOU + sinal de notícias dos últimos 30 dias, com metodologia pública, série histórica e download CSV/JSON. O valor do dia está na própria página.
 
 | data | score | fase_oficial | noticias_30d |
 | --- | --- | --- | --- |
+| 2026-08-27 | 54 | pre-edital | 25 |
 | 2026-08-26 | 53 | pre-edital | 24 |
 | 2026-08-25 | 38 | pre-edital | 14 |
 | 2026-08-24 | 37 | pre-edital | 13 |
@@ -123,7 +124,6 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 | 2026-08-16 | 40 | pre-edital | 15 |
 | 2026-08-15 | 40 | pre-edital | 15 |
 | 2026-08-14 | 41 | pre-edital | 16 |
-| 2026-08-13 | 41 | pre-edital | 16 |
 
 *Últimos 14 dias - a série completa, um ponto por dia (calendário de Brasília), está no [CSV](datasets/termometro-edital-prf.csv)/[JSON](datasets/termometro-edital-prf.json). Fórmula pública e determinística na [página da metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/).*
 
@@ -133,7 +133,7 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 - Notícias e relevância editorial: Radar PRF do Escuta Policial (escutapolicial.com.br/radar), coleta automatizada 5x/dia de fontes públicas
 - Fórmula pública documentada nesta página - índice determinístico, sem IA no cálculo do número
 
-## Salário do Policial Rodoviário Federal: tabela oficial de subsídio (Lei 14.875/2024)
+## [Salário do Policial Rodoviário Federal: tabela oficial de subsídio (Lei 14.875/2024)](https://escutapolicial.com.br/dados/salario-prf/)
 
 Quanto ganha um Policial Rodoviário Federal? Subsídio inicial de R$ 12.253,84, chegando a R$ 23.000,00 no topo. Tabela da Lei 14.875/2024 em CSV/JSON.
 
@@ -167,7 +167,7 @@ Quanto ganha um Policial Rodoviário Federal? Subsídio inicial de R$ 12.253,84,
 - Receita Federal, tributação mensal de 2026: https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026
 - Portal do Servidor, regime de previdência complementar: https://www.gov.br/servidor/pt-br/assuntos/funpresp/migracao-para-regime-de-previdencia-complementar-1
 
-## TAF da PRF: índices oficiais do teste de aptidão física (edital 2021)
+## [TAF da PRF: índices oficiais do teste de aptidão física (edital 2021)](https://escutapolicial.com.br/dados/taf-prf/)
 
 Como é o TAF da PRF? 5 testes eliminatórios (barra fixa, shuttle run, impulsão, abdominal e corrida). Na corrida, o mínimo é 2.301 m (H) e 2.001 m (M).
 
@@ -259,7 +259,7 @@ Como é o TAF da PRF? 5 testes eliminatórios (barra fixa, shuttle run, impulsã
 
 - Edital nº 1 — PRF, de 18 de janeiro de 2021 (Cebraspe), item 11 e Anexo III: https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF
 
-## Requisitos e etapas do concurso da PRF (edital 2021)
+## [Requisitos e etapas do concurso da PRF (edital 2021)](https://escutapolicial.com.br/dados/requisitos-prf/)
 
 Requisitos PRF: nível superior em qualquer área e CNH B. Em 2021 não houve idade máxima, altura mínima nem veto geral a tatuagem. Taxa: R$ 180.
 
@@ -285,7 +285,7 @@ Requisitos PRF: nível superior em qualquer área e CNH B. Em 2021 não houve id
 - Lei nº 8.112/1990, art. 5º (requisitos básicos para investidura em cargo público, inclusive idade mínima de 18 anos)
 - STF, Recurso Extraordinário 898.450/SP, de 17/08/2016 (repercussão geral sobre tatuagem em concurso público, citado no Anexo V do edital)
 
-## Idade para o concurso da PRF: mínima, máxima e o que diz a lei
+## [Idade para o concurso da PRF: mínima, máxima e o que diz a lei](https://escutapolicial.com.br/dados/idade-para-prf/)
 
 Não existe idade máxima para o concurso da PRF: o edital de 2021 não previu limite. A mínima é 18 anos, exigidos na posse (Lei 8.112/1990, art. 5º, V).
 
@@ -308,7 +308,7 @@ Não existe idade máxima para o concurso da PRF: o edital de 2021 não previu l
 - Lei Complementar nº 152/2015 (aposentadoria compulsória do servidor público aos 75 anos)
 - Súmula 683 do Supremo Tribunal Federal (limite de idade em concurso só se legitima quando justificado pela natureza das atribuições do cargo)
 
-## Notas de corte do concurso PRF 2021: objetiva e final, por lista
+## [Notas de corte do concurso PRF 2021: objetiva e final, por lista](https://escutapolicial.com.br/dados/notas-de-corte-prf-2021/)
 
 Nota de corte PRF 2021 na ampla: 73,0 na objetiva e 83,0 no corte final para convocação ao TAF. Veja negros, PCD e fontes do Cebraspe.
 
@@ -329,7 +329,7 @@ Nota de corte PRF 2021 na ampla: 73,0 na objetiva e 83,0 no corte final para con
 - Edital Concurso PRF nº 12, de 2021 (Cebraspe) — resultado final na prova discursiva e convocação para o exame de aptidão física (TAF): https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ED_12_PRF_2021_FINAL_DISCURSIVA_CONV_TAF_FIP_MATRCULA.PDF
 - Edital Concurso PRF nº 13, de 16 de junho de 2021 (Cebraspe) — retificação, por erro material, da nota final na prova objetiva de uma candidata (inscrição 10031927, nota corrigida para 74,00): https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ed_13_prf_2021_ret_nota.pdf
 
-## Quantas questões acertar na PRF: a conta do Certo/Errado da Cebraspe
+## [Quantas questões acertar na PRF: a conta do Certo/Errado da Cebraspe](https://escutapolicial.com.br/dados/quantas-questoes-acertar-prf/)
 
 Na PRF a prova é Certo/Errado: cada erro anula um acerto. Sem itens em branco, 97 acertos e 23 erros produzem nota 74, a menor nota capaz de superar o corte 73 de 2021.
 
@@ -346,7 +346,7 @@ Na PRF a prova é Certo/Errado: cada erro anula um acerto. Sem itens em branco, 
 - Edital nº 1 - PRF/2021, subitem 9.12.2 (regra de pontuação: item certo +1,00, item errado -1,00, item em branco 0,00)
 - Edital nº 1 - PRF/2021 (notas mínimas por bloco de matérias e no conjunto dos blocos, prova objetiva)
 
-## Calculadora de tempo para percorrer o acervo PRF e a carga complementar
+## [Calculadora de tempo para percorrer o acervo PRF e a carga complementar](https://escutapolicial.com.br/dados/tempo-para-zerar-edital-prf/)
 
 Calcule semanas para percorrer o acervo atual e somar horas complementares, revisões e questões — sem confundir o catálogo parcial com o edital inteiro.
 
@@ -363,7 +363,7 @@ Calcule semanas para percorrer o acervo atual e somar horas complementares, revi
 - Catálogo editorial do Escuta Policial: https://escutapolicial.com.br/aulas/ (91 aulas, 1.162 minutos no snapshot gerado)
 - Fórmula editorial v1.0 documentada na página; valores individuais são informados pelo usuário e não são enviados ao servidor
 
-## Calculadora de custo total para o concurso da PRF
+## [Calculadora de custo total para o concurso da PRF](https://escutapolicial.com.br/dados/custo-total-para-concurso-prf/)
 
 Some inscrição, materiais, CNH, exames, TAF, viagem e reserva do curso de formação. Você informa os preços; a calculadora não inventa uma média nacional.
 
@@ -384,7 +384,7 @@ Some inscrição, materiais, CNH, exames, TAF, viagem e reserva do curso de form
 - Metodologia editorial v1.0 do Escuta Policial: soma dos valores informados + contingência percentual, dividida pelo horizonte opcional
 - Valores individuais são informados pelo usuário e processados localmente; a página não publica preço médio nacional
 
-## Quem as IAs citam para estudar para a PRF (monitor mensal)
+## [Quem as IAs citam para estudar para a PRF (monitor mensal)](https://escutapolicial.com.br/dados/presenca-ia/)
 
 Quais marcas as IAs citam para quem quer estudar para a PRF? Monitor mensal, 5 marcas, metodologia aberta. Última rodada: 19/07/2026.
 
