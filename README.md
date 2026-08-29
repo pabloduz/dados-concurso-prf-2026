@@ -2,7 +2,7 @@
 
 > Fatos do concurso da PRF compilados de **fontes primárias** (Diário Oficial da União, editais e PDFs oficiais do Cebraspe/CESPE) e atualizados automaticamente: um robô do [Escuta Policial](https://escutapolicial.com.br/dados/) lê o DOU a cada ~20 minutos e este repositório é espelhado a cada varredura do Radar (5x por dia).
 
-**🌡️ Termômetro do Edital PRF em 28/08/2026: `49/100` - aquecendo forte** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
+**🌡️ Termômetro do Edital PRF em 29/08/2026: `49/100` - aquecendo forte** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
 
 - **Licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt-br)**: copie, republique e adapte (inclusive comercialmente), **citando "Escuta Policial" com link** para https://escutapolicial.com.br/dados/.
 - Nenhum número entra sem ato oficial: célula sem fonte fica vazia - preferimos a lacuna ao chute.
@@ -91,8 +91,8 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 | Direito Administrativo | III | 10 | 4 | 10 | 111 |
 | Direito Constitucional | III | 10 | 4 | 9 | 93 |
 | Direito Penal | III | 10 | 4 | 10 | 141 |
-| Direito Processual Penal | III | 10 | 3 | 6 | 74 |
-| Legislação Especial | III | 10 | 3 | 6 | 75 |
+| Direito Processual Penal | III | 10 | 3 | 7 | 83 |
+| Legislação Especial | III | 10 | 3 | 10 | 133 |
 | Direitos Humanos | III | 10 | 3 | 3 | 52 |
 | Noções de Administração | – | – | 3 | 1 | 12 |
 | Noções de Arquivologia | – | – | 3 | 3 | 46 |
@@ -110,6 +110,7 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 
 | data | score | fase_oficial | noticias_30d |
 | --- | --- | --- | --- |
+| 2026-08-29 | 49 | pre-edital | 21 |
 | 2026-08-28 | 49 | pre-edital | 21 |
 | 2026-08-27 | 54 | pre-edital | 25 |
 | 2026-08-26 | 53 | pre-edital | 24 |
@@ -123,7 +124,6 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 | 2026-08-18 | 40 | pre-edital | 15 |
 | 2026-08-17 | 40 | pre-edital | 15 |
 | 2026-08-16 | 40 | pre-edital | 15 |
-| 2026-08-15 | 40 | pre-edital | 15 |
 
 *Últimos 14 dias - a série completa, um ponto por dia (calendário de Brasília), está no [CSV](datasets/termometro-edital-prf.csv)/[JSON](datasets/termometro-edital-prf.json). Fórmula pública e determinística na [página da metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/).*
 
@@ -360,7 +360,7 @@ Calcule semanas para percorrer o acervo atual e somar horas complementares, revi
 **Fontes primárias:**
 
 - Edital nº 1 — PRF, de 2021 (Cebraspe): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF — itens 9 (prova objetiva, critérios 9.12) e 24 (objetos de avaliação, composição dos blocos)
-- Catálogo editorial do Escuta Policial: https://escutapolicial.com.br/aulas/ (94 aulas, 1.202 minutos no snapshot gerado)
+- Catálogo editorial do Escuta Policial: https://escutapolicial.com.br/aulas/ (99 aulas, 1.269 minutos no snapshot gerado)
 - Fórmula editorial v1.0 documentada na página; valores individuais são informados pelo usuário e não são enviados ao servidor
 
 ## [Calculadora de custo total para o concurso da PRF](https://escutapolicial.com.br/dados/custo-total-para-concurso-prf/)
