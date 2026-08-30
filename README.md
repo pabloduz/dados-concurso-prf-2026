@@ -2,7 +2,7 @@
 
 > Fatos do concurso da PRF compilados de **fontes primárias** (Diário Oficial da União, editais e PDFs oficiais do Cebraspe/CESPE) e atualizados automaticamente: um robô do [Escuta Policial](https://escutapolicial.com.br/dados/) lê o DOU a cada ~20 minutos e este repositório é espelhado a cada varredura do Radar (5x por dia).
 
-**🌡️ Termômetro do Edital PRF em 30/08/2026: `44/100` - aquecendo forte** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
+**🌡️ Termômetro do Edital PRF em 30/08/2026: `38/100` - em aquecimento** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
 
 - **Licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt-br)**: copie, republique e adapte (inclusive comercialmente), **citando "Escuta Policial" com link** para https://escutapolicial.com.br/dados/.
 - Nenhum número entra sem ato oficial: célula sem fonte fica vazia - preferimos a lacuna ao chute.
@@ -110,22 +110,9 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 
 | data | score | fase_oficial | noticias_30d |
 | --- | --- | --- | --- |
-| 2026-08-30 | 44 | pre-edital | 18 |
-| 2026-08-29 | 44 | pre-edital | 18 |
-| 2026-08-28 | 49 | pre-edital | 21 |
-| 2026-08-27 | 54 | pre-edital | 25 |
-| 2026-08-26 | 53 | pre-edital | 24 |
-| 2026-08-25 | 38 | pre-edital | 14 |
-| 2026-08-24 | 37 | pre-edital | 13 |
-| 2026-08-23 | 37 | pre-edital | 13 |
-| 2026-08-22 | 39 | pre-edital | 15 |
-| 2026-08-21 | 39 | pre-edital | 15 |
-| 2026-08-20 | 38 | pre-edital | 14 |
-| 2026-08-19 | 38 | pre-edital | 14 |
-| 2026-08-18 | 40 | pre-edital | 15 |
-| 2026-08-17 | 40 | pre-edital | 15 |
+| 2026-08-30 | 38 | pre-edital | 14 |
 
-*Últimos 14 dias - a série completa, um ponto por dia (calendário de Brasília), está no [CSV](datasets/termometro-edital-prf.csv)/[JSON](datasets/termometro-edital-prf.json). Fórmula pública e determinística na [página da metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/).*
+*Últimos 1 dias - a série completa, um ponto por dia (calendário de Brasília), está no [CSV](datasets/termometro-edital-prf.csv)/[JSON](datasets/termometro-edital-prf.json). Fórmula pública e determinística na [página da metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/).*
 
 **Fontes primárias:**
 
@@ -386,20 +373,15 @@ Some inscrição, materiais, CNH, exames, TAF, viagem e reserva do curso de form
 
 ## [Quem as IAs citam para estudar para a PRF (monitor mensal)](https://escutapolicial.com.br/dados/presenca-ia/)
 
-Quais marcas as IAs citam para quem quer estudar para a PRF? Monitor mensal, 5 marcas, metodologia aberta. Última rodada: 19/07/2026.
+Quais marcas as IAs citam para quem quer estudar para a PRF? Monitor mensal, 5 marcas e painel de 14 perguntas. Baseline atual pendente; a rodada histórica incompatível foi preservada.
 
 | data | marca | perguntas_em_que_aparece | total_perguntas | share_of_voice_pct | com_url_citada |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-19 | Estratégia Concursos | 13 | 15 | 43.3 | 3 |
-| 2026-07-19 | Gran Cursos | 11 | 15 | 36.7 | 2 |
-| 2026-07-19 | EmÁudio Concursos | 3 | 15 | 10 | 1 |
-| 2026-07-19 | Nova Concursos | 3 | 15 | 10 | 1 |
-| 2026-07-19 | Escuta Policial | 0 | 15 | 0 | 0 |
 
 
 **Fontes primárias:**
 
-- Coleta própria do Escuta Policial via API Anthropic (modelo pinado claude-sonnet-5, busca web habilitada). Painel de perguntas e regras de detecção públicos no dado bruto: https://escutapolicial.com.br/dados/presenca-ia/dados.json
+- Coleta própria do Escuta Policial via API Anthropic (modelo pinado claude-sonnet-5, busca web habilitada). Painel canônico, histórico bruto e regras de detecção públicos no dado: https://escutapolicial.com.br/dados/presenca-ia/dados.json
 
 ## Como citar
 
