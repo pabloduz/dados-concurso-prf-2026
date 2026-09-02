@@ -2,7 +2,7 @@
 
 > Fatos do concurso da PRF compilados de **fontes primárias** (Diário Oficial da União, editais e PDFs oficiais do Cebraspe/CESPE) e atualizados automaticamente: um robô do [Escuta Policial](https://escutapolicial.com.br/dados/) lê o DOU a cada ~20 minutos e este repositório é espelhado a cada varredura do Radar (5x por dia).
 
-**🌡️ Termômetro do Edital PRF em 01/09/2026: `38/100` - em aquecimento** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
+**🌡️ Termômetro do Edital PRF em 02/09/2026: `40/100` - aquecendo forte** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
 
 - **Licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt-br)**: copie, republique e adapte (inclusive comercialmente), **citando "Escuta Policial" com link** para https://escutapolicial.com.br/dados/.
 - Nenhum número entra sem ato oficial: célula sem fonte fica vazia - preferimos a lacuna ao chute.
@@ -110,15 +110,16 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 
 | data | score | fase_oficial | noticias_30d |
 | --- | --- | --- | --- |
+| 2026-09-02 | 40 | pre-edital | 15 |
 | 2026-09-01 | 38 | pre-edital | 14 |
 | 2026-08-31 | 37 | pre-edital | 13 |
 | 2026-08-30 | 38 | pre-edital | 14 |
 
-*Últimos 3 dias - a série completa, um ponto por dia (calendário de Brasília), está no [CSV](datasets/termometro-edital-prf.csv)/[JSON](datasets/termometro-edital-prf.json). Fórmula pública e determinística na [página da metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/).*
+*Últimos 4 dias - a série completa, um ponto por dia (calendário de Brasília), está no [CSV](datasets/termometro-edital-prf.csv)/[JSON](datasets/termometro-edital-prf.json). Fórmula pública e determinística na [página da metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/).*
 
 **Fontes primárias:**
 
-- Fase oficial do concurso: monitoramento do Diário Oficial da União pelo robô do Escuta Policial (varredura a cada ~20 minutos, seções 1 e 3)
+- Fase oficial do concurso: monitoramento do Diário Oficial da União pelo robô do Escuta Policial (varredura a cada ~10 minutos, seções 1 e 3)
 - Notícias e relevância editorial: Radar PRF do Escuta Policial (escutapolicial.com.br/radar), coleta automatizada 5x/dia de fontes públicas
 - Fórmula pública documentada nesta página - índice determinístico, sem IA no cálculo do número
 
@@ -299,7 +300,7 @@ Não existe idade máxima para o concurso da PRF: o edital de 2021 não previu l
 
 ## [Notas de corte do concurso PRF 2021: objetiva e final, por lista](https://escutapolicial.com.br/dados/notas-de-corte-prf-2021/)
 
-Nota de corte PRF 2021 na ampla: 73,0 na objetiva e 83,0 no corte final para convocação ao TAF. Veja negros, PCD e fontes do Cebraspe.
+Nota de corte PRF 2021: 73,0 foi o corte da objetiva na ampla; 83,0 foi o menor resultado final entre convocados ao TAF. Compare as fases e treine Cebraspe.
 
 | lista | fase | candidatos | nota_minima | nota_maxima | pontuacao_maxima_da_fase |
 | --- | --- | --- | --- | --- | --- |
