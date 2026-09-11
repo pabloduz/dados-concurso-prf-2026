@@ -81,22 +81,22 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 | materia | bloco_edital_2021 | nota_minima_do_bloco | peso_editorial_escuta_policial | aulas_no_catalogo | minutos_de_audio |
 | --- | --- | --- | --- | --- | --- |
 | Língua Portuguesa | I | 15 | 4 | 6 | 74 |
-| Raciocínio Lógico-Matemático | I | 15 | 3 | 6 | 68 |
-| Informática | I | 15 | 3 | 4 | 41 |
+| Raciocínio Lógico-Matemático | I | 15 | 3 | 10 | 139 |
+| Informática | I | 15 | 3 | 4 | 40 |
 | Física | I | 15 | 2 | 3 | 29 |
-| Ética e Cidadania | I | 15 | 2 | 6 | 81 |
+| Ética e Cidadania | I | 15 | 2 | 7 | 100 |
 | Geopolítica | I | 15 | 2 | 3 | 37 |
 | Língua Estrangeira (Inglês ou Espanhol) | I | 15 | 2 | 3 | 31 |
 | Legislação de Trânsito (CTB) | II | 10 | 5 | 14 | 226 |
-| Direito Administrativo | III | 10 | 4 | 10 | 111 |
-| Direito Constitucional | III | 10 | 4 | 9 | 93 |
+| Direito Administrativo | III | 10 | 4 | 12 | 142 |
+| Direito Constitucional | III | 10 | 4 | 9 | 90 |
 | Direito Penal | III | 10 | 4 | 10 | 141 |
-| Direito Processual Penal | III | 10 | 3 | 7 | 83 |
-| Legislação Especial | III | 10 | 3 | 10 | 133 |
+| Direito Processual Penal | III | 10 | 3 | 7 | 90 |
+| Legislação Especial | III | 10 | 3 | 10 | 154 |
 | Direitos Humanos | III | 10 | 3 | 3 | 52 |
-| Noções de Administração | – | – | 3 | 1 | 12 |
-| Noções de Arquivologia | – | – | 3 | 3 | 46 |
-| Legislação relativa à PRF | – | – | 3 | 1 | 12 |
+| Noções de Administração | – | – | 4 | 1 | 11 |
+| Noções de Arquivologia | – | – | 3 | 3 | 43 |
+| Legislação relativa à PRF | – | – | 3 | 1 | 14 |
 
 
 **Fontes primárias:**
@@ -359,7 +359,7 @@ Calcule semanas para percorrer o acervo atual e somar horas complementares, revi
 **Fontes primárias:**
 
 - Edital nº 1 — PRF, de 2021 (Cebraspe): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF — itens 9 (prova objetiva, critérios 9.12) e 24 (objetos de avaliação, composição dos blocos)
-- Catálogo editorial do Escuta Policial: https://escutapolicial.com.br/aulas/ (99 aulas, 1.269 minutos no snapshot gerado)
+- Catálogo editorial do Escuta Policial: https://escutapolicial.com.br/aulas/ (106 aulas, 1.411 minutos no snapshot gerado)
 - Fórmula editorial v1.0 documentada na página; valores individuais são informados pelo usuário e não são enviados ao servidor
 
 ## [Calculadora de custo total para o concurso da PRF](https://escutapolicial.com.br/dados/custo-total-para-concurso-prf/)
