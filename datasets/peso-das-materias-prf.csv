@@ -1,18 +1,15 @@
-materia,bloco_edital_2021,nota_minima_do_bloco,peso_editorial_escuta_policial,aulas_no_catalogo,minutos_de_audio
-Língua Portuguesa,I,15,4,6,74
-Raciocínio Lógico-Matemático,I,15,3,10,139
-Informática,I,15,3,4,40
-Física,I,15,2,3,29
-Ética e Cidadania,I,15,2,7,100
-Geopolítica,I,15,2,3,37
-Língua Estrangeira (Inglês ou Espanhol),I,15,2,3,31
-Legislação de Trânsito (CTB),II,10,5,14,226
-Direito Administrativo,III,10,4,12,142
-Direito Constitucional,III,10,4,9,90
-Direito Penal,III,10,4,10,141
-Direito Processual Penal,III,10,3,7,90
-Legislação Especial,III,10,3,10,154
-Direitos Humanos,III,10,3,3,52
-Noções de Administração,,,4,1,11
-Noções de Arquivologia,,,3,3,43
-Legislação relativa à PRF,,,3,1,14
+materia,bloco_edital_2021,questoes_aplicadas,percentual_dos_120_itens,anuladas_opcao_ingles,anuladas_opcao_espanhol,numeros_dos_itens
+Legislação de Trânsito,II,30,25,4,4,56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85
+Língua Portuguesa,I,18,15,0,0,9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+Língua Estrangeira,I,8,6.6667,1,1,1 2 3 4 5 6 7 8
+Informática,I,7,5.8333,1,1,33 34 35 36 37 38 39
+Direito Administrativo,III,7,5.8333,1,1,86 87 88 89 90 91 92
+Direito Constitucional,III,7,5.8333,2,2,93 94 95 96 97 98 99
+Raciocínio Lógico-Matemático,I,6,5,0,0,27 28 29 30 31 32
+Ética e Cidadania,I,6,5,1,1,45 46 47 48 49 50
+Legislação Especial,III,6,5,0,0,110 111 112 113 114 115
+Física,I,5,4.1667,0,0,40 41 42 43 44
+Geopolítica,I,5,4.1667,0,0,51 52 53 54 55
+Direito Penal,III,5,4.1667,0,0,100 101 102 103 104
+Direito Processual Penal,III,5,4.1667,0,0,105 106 107 108 109
+Direitos Humanos,III,5,4.1667,0,0,116 117 118 119 120

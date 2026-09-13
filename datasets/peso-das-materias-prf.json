@@ -1,157 +1,153 @@
 {
-  "dataset": "Estrutura da prova da PRF por matéria: blocos oficiais × catálogo de estudo",
+  "dataset": "Questões por matéria na PRF 2021: distribuição, anulações e blocos",
   "url": "https://escutapolicial.com.br/dados/peso-das-materias-prf/",
-  "atualizadoEm": "2026-07-31",
+  "atualizadoEm": "2026-09-14",
   "licenca": "CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/",
-  "citacao": "Escuta Policial - PRF em Números. \"Estrutura da prova da PRF por matéria: blocos oficiais × catálogo de estudo\". Disponível em: https://escutapolicial.com.br/dados/peso-das-materias-prf/. Dados compilados de fontes oficiais (DOU, Cebraspe/CESPE). Licença CC BY 4.0.",
+  "citacao": "Escuta Policial - PRF em Números. \"Questões por matéria na PRF 2021: distribuição, anulações e blocos\". Disponível em: https://escutapolicial.com.br/dados/peso-das-materias-prf/. Dados compilados de fontes oficiais (DOU, Cebraspe/CESPE). Licença CC BY 4.0.",
   "fontes": [
     "Edital nº 1 — PRF, de 2021 (Cebraspe): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF — itens 9 (prova objetiva, critérios 9.12) e 24 (objetos de avaliação, composição dos blocos)",
-    "Peso editorial, aulas e minutos de áudio: catálogo do Escuta Policial (https://escutapolicial.com.br/aulas/), atualizado em 31 de julho de 2026"
+    "https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/578_PRF_ING_01.PDF",
+    "https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/578_PRF_ESP_02.PDF",
+    "https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/578_PRF_001_01.PDF",
+    "https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/GAB_DEFINITIVO_578_PRF_ING_01.PDF",
+    "https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/GAB_DEFINITIVO_578_PRF_ESP_02.PDF",
+    "https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/GAB_DEFINITIVO_578_PRF_001_01.PDF"
   ],
   "colunas": [
     "materia",
     "bloco_edital_2021",
-    "nota_minima_do_bloco",
-    "peso_editorial_escuta_policial",
-    "aulas_no_catalogo",
-    "minutos_de_audio"
+    "questoes_aplicadas",
+    "percentual_dos_120_itens",
+    "anuladas_opcao_ingles",
+    "anuladas_opcao_espanhol",
+    "numeros_dos_itens"
   ],
   "linhas": [
     [
-      "Língua Portuguesa",
-      "I",
-      15,
+      "Legislação de Trânsito",
+      "II",
+      30,
+      25,
       4,
-      6,
-      74
+      4,
+      "56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85"
     ],
     [
-      "Raciocínio Lógico-Matemático",
+      "Língua Portuguesa",
       "I",
+      18,
       15,
-      3,
-      10,
-      139
+      0,
+      0,
+      "9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26"
+    ],
+    [
+      "Língua Estrangeira",
+      "I",
+      8,
+      6.6667,
+      1,
+      1,
+      "1 2 3 4 5 6 7 8"
     ],
     [
       "Informática",
       "I",
-      15,
-      3,
-      4,
-      40
-    ],
-    [
-      "Física",
-      "I",
-      15,
-      2,
-      3,
-      29
-    ],
-    [
-      "Ética e Cidadania",
-      "I",
-      15,
-      2,
       7,
-      100
-    ],
-    [
-      "Geopolítica",
-      "I",
-      15,
-      2,
-      3,
-      37
-    ],
-    [
-      "Língua Estrangeira (Inglês ou Espanhol)",
-      "I",
-      15,
-      2,
-      3,
-      31
-    ],
-    [
-      "Legislação de Trânsito (CTB)",
-      "II",
-      10,
-      5,
-      14,
-      226
+      5.8333,
+      1,
+      1,
+      "33 34 35 36 37 38 39"
     ],
     [
       "Direito Administrativo",
       "III",
-      10,
-      4,
-      12,
-      142
+      7,
+      5.8333,
+      1,
+      1,
+      "86 87 88 89 90 91 92"
     ],
     [
       "Direito Constitucional",
       "III",
-      10,
-      4,
-      9,
-      90
-    ],
-    [
-      "Direito Penal",
-      "III",
-      10,
-      4,
-      10,
-      141
-    ],
-    [
-      "Direito Processual Penal",
-      "III",
-      10,
-      3,
       7,
-      90
+      5.8333,
+      2,
+      2,
+      "93 94 95 96 97 98 99"
+    ],
+    [
+      "Raciocínio Lógico-Matemático",
+      "I",
+      6,
+      5,
+      0,
+      0,
+      "27 28 29 30 31 32"
+    ],
+    [
+      "Ética e Cidadania",
+      "I",
+      6,
+      5,
+      1,
+      1,
+      "45 46 47 48 49 50"
     ],
     [
       "Legislação Especial",
       "III",
-      10,
-      3,
-      10,
-      154
+      6,
+      5,
+      0,
+      0,
+      "110 111 112 113 114 115"
+    ],
+    [
+      "Física",
+      "I",
+      5,
+      4.1667,
+      0,
+      0,
+      "40 41 42 43 44"
+    ],
+    [
+      "Geopolítica",
+      "I",
+      5,
+      4.1667,
+      0,
+      0,
+      "51 52 53 54 55"
+    ],
+    [
+      "Direito Penal",
+      "III",
+      5,
+      4.1667,
+      0,
+      0,
+      "100 101 102 103 104"
+    ],
+    [
+      "Direito Processual Penal",
+      "III",
+      5,
+      4.1667,
+      0,
+      0,
+      "105 106 107 108 109"
     ],
     [
       "Direitos Humanos",
       "III",
-      10,
-      3,
-      3,
-      52
-    ],
-    [
-      "Noções de Administração",
-      null,
-      null,
-      4,
-      1,
-      11
-    ],
-    [
-      "Noções de Arquivologia",
-      null,
-      null,
-      3,
-      3,
-      43
-    ],
-    [
-      "Legislação relativa à PRF",
-      null,
-      null,
-      3,
-      1,
-      14
+      5,
+      4.1667,
+      0,
+      0,
+      "116 117 118 119 120"
     ]
   ]
 }

@@ -2,7 +2,7 @@
 
 > Fatos do concurso da PRF compilados de **fontes primárias** (Diário Oficial da União, editais e PDFs oficiais do Cebraspe/CESPE) e atualizados automaticamente: um robô do [Escuta Policial](https://escutapolicial.com.br/dados/) lê o DOU a cada ~20 minutos e este repositório é espelhado a cada varredura do Radar (5x por dia).
 
-**🌡️ Termômetro do Edital PRF em 12/09/2026: `54/100` - aquecendo forte** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
+**🌡️ Termômetro do Edital PRF em 14/09/2026: `54/100` - aquecendo forte** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
 
 - **Licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt-br)**: copie, republique e adapte (inclusive comercialmente), **citando "Escuta Policial" com link** para https://escutapolicial.com.br/dados/.
 - Nenhum número entra sem ato oficial: célula sem fonte fica vazia - preferimos a lacuna ao chute.
@@ -14,7 +14,7 @@
 | --- | --- | --- |
 | Linha do tempo real dos concursos da PRF (2013-2026) | [CSV](datasets/linha-do-tempo-concurso-prf.csv) · [JSON](datasets/linha-do-tempo-concurso-prf.json) | [escutapolicial.com.br/dados/linha-do-tempo-concurso-prf/](https://escutapolicial.com.br/dados/linha-do-tempo-concurso-prf/) |
 | Concorrência e abstenção do concurso PRF (2013-2021) | [CSV](datasets/concorrencia-prf.csv) · [JSON](datasets/concorrencia-prf.json) | [escutapolicial.com.br/dados/concorrencia-prf/](https://escutapolicial.com.br/dados/concorrencia-prf/) |
-| Estrutura da prova da PRF por matéria: blocos oficiais × catálogo de estudo | [CSV](datasets/peso-das-materias-prf.csv) · [JSON](datasets/peso-das-materias-prf.json) | [escutapolicial.com.br/dados/peso-das-materias-prf/](https://escutapolicial.com.br/dados/peso-das-materias-prf/) |
+| Questões por matéria na PRF 2021: distribuição, anulações e blocos | [CSV](datasets/peso-das-materias-prf.csv) · [JSON](datasets/peso-das-materias-prf.json) | [escutapolicial.com.br/dados/peso-das-materias-prf/](https://escutapolicial.com.br/dados/peso-das-materias-prf/) |
 | Termômetro do Edital PRF - índice diário de aquecimento (0-100) | [CSV](datasets/termometro-edital-prf.csv) · [JSON](datasets/termometro-edital-prf.json) | [escutapolicial.com.br/dados/termometro-edital-prf/](https://escutapolicial.com.br/dados/termometro-edital-prf/) |
 | Salário do Policial Rodoviário Federal: tabela oficial de subsídio (Lei 14.875/2024) | [CSV](datasets/salario-prf.csv) · [JSON](datasets/salario-prf.json) | [escutapolicial.com.br/dados/salario-prf/](https://escutapolicial.com.br/dados/salario-prf/) |
 | TAF da PRF: índices oficiais do teste de aptidão física (edital 2021) | [CSV](datasets/taf-prf.csv) · [JSON](datasets/taf-prf.json) | [escutapolicial.com.br/dados/taf-prf/](https://escutapolicial.com.br/dados/taf-prf/) |
@@ -74,35 +74,37 @@ Quantos inscritos tem o concurso da PRF? 304.330 em 2021 (202,9 por vaga), 129.1
 - Edital nº 1 — DPRF 2013, CESPE/UnB (cespe.unb.br/concursos/dprf_13)
 - Demanda oficial de candidatos, CESPE/UnB, 02/08/2013: http://www.cespe.unb.br/concursos/DPRF_13/arquivos/DEMANDA_DPRF_13.PDF (109.769 inscritos, 1.000 vagas, demanda 109,77)
 
-## [Estrutura da prova da PRF por matéria: blocos oficiais × catálogo de estudo](https://escutapolicial.com.br/dados/peso-das-materias-prf/)
+## [Questões por matéria na PRF 2021: distribuição, anulações e blocos](https://escutapolicial.com.br/dados/peso-das-materias-prf/)
 
-Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota mínima própria. Estrutura oficial de 2021 (blocos e notas mínimas) por matéria.
+PRF 2021: Trânsito teve 30 questões (25%) e Português, 18 (15%). Veja as 14 matérias, anulações, mínimos por bloco e revisão grátis por assunto.
 
-| materia | bloco_edital_2021 | nota_minima_do_bloco | peso_editorial_escuta_policial | aulas_no_catalogo | minutos_de_audio |
-| --- | --- | --- | --- | --- | --- |
-| Língua Portuguesa | I | 15 | 4 | 6 | 74 |
-| Raciocínio Lógico-Matemático | I | 15 | 3 | 10 | 139 |
-| Informática | I | 15 | 3 | 4 | 40 |
-| Física | I | 15 | 2 | 3 | 29 |
-| Ética e Cidadania | I | 15 | 2 | 7 | 100 |
-| Geopolítica | I | 15 | 2 | 3 | 37 |
-| Língua Estrangeira (Inglês ou Espanhol) | I | 15 | 2 | 3 | 31 |
-| Legislação de Trânsito (CTB) | II | 10 | 5 | 14 | 226 |
-| Direito Administrativo | III | 10 | 4 | 12 | 142 |
-| Direito Constitucional | III | 10 | 4 | 9 | 90 |
-| Direito Penal | III | 10 | 4 | 10 | 141 |
-| Direito Processual Penal | III | 10 | 3 | 7 | 90 |
-| Legislação Especial | III | 10 | 3 | 10 | 154 |
-| Direitos Humanos | III | 10 | 3 | 3 | 52 |
-| Noções de Administração | – | – | 4 | 1 | 11 |
-| Noções de Arquivologia | – | – | 3 | 3 | 43 |
-| Legislação relativa à PRF | – | – | 3 | 1 | 14 |
+| materia | bloco_edital_2021 | questoes_aplicadas | percentual_dos_120_itens | anuladas_opcao_ingles | anuladas_opcao_espanhol | numeros_dos_itens |
+| --- | --- | --- | --- | --- | --- | --- |
+| Legislação de Trânsito | II | 30 | 25 | 4 | 4 | 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 |
+| Língua Portuguesa | I | 18 | 15 | 0 | 0 | 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 |
+| Língua Estrangeira | I | 8 | 6.6667 | 1 | 1 | 1 2 3 4 5 6 7 8 |
+| Informática | I | 7 | 5.8333 | 1 | 1 | 33 34 35 36 37 38 39 |
+| Direito Administrativo | III | 7 | 5.8333 | 1 | 1 | 86 87 88 89 90 91 92 |
+| Direito Constitucional | III | 7 | 5.8333 | 2 | 2 | 93 94 95 96 97 98 99 |
+| Raciocínio Lógico-Matemático | I | 6 | 5 | 0 | 0 | 27 28 29 30 31 32 |
+| Ética e Cidadania | I | 6 | 5 | 1 | 1 | 45 46 47 48 49 50 |
+| Legislação Especial | III | 6 | 5 | 0 | 0 | 110 111 112 113 114 115 |
+| Física | I | 5 | 4.1667 | 0 | 0 | 40 41 42 43 44 |
+| Geopolítica | I | 5 | 4.1667 | 0 | 0 | 51 52 53 54 55 |
+| Direito Penal | III | 5 | 4.1667 | 0 | 0 | 100 101 102 103 104 |
+| Direito Processual Penal | III | 5 | 4.1667 | 0 | 0 | 105 106 107 108 109 |
+| Direitos Humanos | III | 5 | 4.1667 | 0 | 0 | 116 117 118 119 120 |
 
 
 **Fontes primárias:**
 
 - Edital nº 1 — PRF, de 2021 (Cebraspe): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF — itens 9 (prova objetiva, critérios 9.12) e 24 (objetos de avaliação, composição dos blocos)
-- Peso editorial, aulas e minutos de áudio: catálogo do Escuta Policial (https://escutapolicial.com.br/aulas/), atualizado em 31 de julho de 2026
+- https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/578_PRF_ING_01.PDF
+- https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/578_PRF_ESP_02.PDF
+- https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/578_PRF_001_01.PDF
+- https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/GAB_DEFINITIVO_578_PRF_ING_01.PDF
+- https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/GAB_DEFINITIVO_578_PRF_ESP_02.PDF
+- https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/GAB_DEFINITIVO_578_PRF_001_01.PDF
 
 ## 🌡️ [Termômetro do Edital PRF - índice diário de aquecimento (0-100)](https://escutapolicial.com.br/dados/termometro-edital-prf/)
 
@@ -110,6 +112,8 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 
 | data | score | fase_oficial | noticias_30d |
 | --- | --- | --- | --- |
+| 2026-09-14 | 54 | pre-edital | 27 |
+| 2026-09-13 | 54 | pre-edital | 27 |
 | 2026-09-12 | 54 | pre-edital | 27 |
 | 2026-09-11 | 54 | pre-edital | 27 |
 | 2026-09-10 | 54 | pre-edital | 27 |
@@ -122,8 +126,6 @@ Legislação de Trânsito é um bloco inteiro sozinha na prova da PRF, com nota 
 | 2026-09-03 | 46 | pre-edital | 21 |
 | 2026-09-02 | 42 | pre-edital | 18 |
 | 2026-09-01 | 38 | pre-edital | 14 |
-| 2026-08-31 | 37 | pre-edital | 13 |
-| 2026-08-30 | 38 | pre-edital | 14 |
 
 *Últimos 14 dias - a série completa, um ponto por dia (calendário de Brasília), está no [CSV](datasets/termometro-edital-prf.csv)/[JSON](datasets/termometro-edital-prf.json). Fórmula pública e determinística na [página da metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/).*
 
