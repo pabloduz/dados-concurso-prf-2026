@@ -2,7 +2,7 @@
 
 > Fatos do concurso da PRF compilados de **fontes primárias** (Diário Oficial da União, editais e PDFs oficiais do Cebraspe/CESPE) e atualizados automaticamente: um robô do [Escuta Policial](https://escutapolicial.com.br/dados/) lê o DOU a cada ~20 minutos e este repositório é espelhado a cada varredura do Radar (5x por dia).
 
-**🌡️ Termômetro do Edital PRF em 20/09/2026: `54/100` - aquecendo forte** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
+**🌡️ Termômetro do Edital PRF em 21/09/2026: `52/100` - aquecendo forte** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
 
 - **Licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt-br)**: copie, republique e adapte (inclusive comercialmente), **citando "Escuta Policial" com link** para https://escutapolicial.com.br/dados/.
 - Nenhum número entra sem ato oficial: célula sem fonte fica vazia - preferimos a lacuna ao chute.
@@ -112,6 +112,7 @@ PRF 2021: Trânsito teve 30 questões (25%) e Português, 18 (15%). Veja as 14 m
 
 | data | score | fase_oficial | noticias_30d |
 | --- | --- | --- | --- |
+| 2026-09-21 | 52 | pre-edital | 26 |
 | 2026-09-20 | 54 | pre-edital | 27 |
 | 2026-09-19 | 55 | pre-edital | 28 |
 | 2026-09-18 | 55 | pre-edital | 28 |
@@ -125,7 +126,6 @@ PRF 2021: Trânsito teve 30 questões (25%) e Português, 18 (15%). Veja as 14 m
 | 2026-09-10 | 54 | pre-edital | 27 |
 | 2026-09-09 | 53 | pre-edital | 26 |
 | 2026-09-08 | 50 | pre-edital | 24 |
-| 2026-09-07 | 46 | pre-edital | 21 |
 
 *Últimos 14 dias - a série completa, um ponto por dia (calendário de Brasília), está no [CSV](datasets/termometro-edital-prf.csv)/[JSON](datasets/termometro-edital-prf.json). Fórmula pública e determinística na [página da metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/).*
 
@@ -312,7 +312,7 @@ Não existe idade máxima para o concurso da PRF: o edital de 2021 não previu l
 
 ## [Notas de corte do concurso PRF 2021: objetiva e final, por lista](https://escutapolicial.com.br/dados/notas-de-corte-prf-2021/)
 
-A nota de corte PRF 2021 foi 73 ou 83? Foram fases diferentes: 73,0 na objetiva e 83,0 no resultado final da ampla antes do TAF, com fontes Cebraspe.
+Nota de corte PRF 2021: 73,0 foi o corte da objetiva na ampla; 83,0 foi o menor resultado final entre convocados ao TAF. Compare as fases e treine Cebraspe.
 
 | lista | fase | candidatos | nota_minima | nota_maxima | pontuacao_maxima_da_fase |
 | --- | --- | --- | --- | --- | --- |
