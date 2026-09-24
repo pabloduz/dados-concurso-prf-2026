@@ -112,7 +112,7 @@ PRF 2021: Trânsito teve 30 questões (25%) e Português, 18 (15%). Veja as 14 m
 
 | data | score | fase_oficial | noticias_30d |
 | --- | --- | --- | --- |
-| 2026-09-24 | 52 | pre-edital | 26 |
+| 2026-09-24 | 52 | pre-edital | 25 |
 | 2026-09-23 | 52 | pre-edital | 26 |
 | 2026-09-22 | 52 | pre-edital | 26 |
 | 2026-09-21 | 52 | pre-edital | 26 |
