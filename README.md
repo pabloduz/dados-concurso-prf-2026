@@ -2,7 +2,7 @@
 
 > Fatos do concurso da PRF compilados de **fontes primárias** (Diário Oficial da União, editais e PDFs oficiais do Cebraspe/CESPE) e atualizados automaticamente: um robô do [Escuta Policial](https://escutapolicial.com.br/dados/) lê o DOU a cada ~20 minutos e este repositório é espelhado a cada varredura do Radar (5x por dia).
 
-**🌡️ Termômetro do Edital PRF em 28/09/2026: `39/100` - em aquecimento** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
+**🌡️ Termômetro do Edital PRF em 29/09/2026: `39/100` - em aquecimento** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
 
 - **Licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt-br)**: copie, republique e adapte (inclusive comercialmente), **citando "Escuta Policial" com link** para https://escutapolicial.com.br/dados/.
 - Nenhum número entra sem ato oficial: célula sem fonte fica vazia - preferimos a lacuna ao chute.
@@ -112,6 +112,7 @@ PRF 2021: Trânsito teve 30 questões (25%) e Português, 18 (15%). Veja as 14 m
 
 | data | score | fase_oficial | noticias_30d |
 | --- | --- | --- | --- |
+| 2026-09-29 | 39 | pre-edital | 16 |
 | 2026-09-28 | 39 | pre-edital | 16 |
 | 2026-09-27 | 41 | pre-edital | 17 |
 | 2026-09-26 | 41 | pre-edital | 17 |
@@ -125,7 +126,6 @@ PRF 2021: Trânsito teve 30 questões (25%) e Português, 18 (15%). Veja as 14 m
 | 2026-09-18 | 55 | pre-edital | 28 |
 | 2026-09-17 | 55 | pre-edital | 28 |
 | 2026-09-16 | 55 | pre-edital | 28 |
-| 2026-09-15 | 55 | pre-edital | 28 |
 
 *Últimos 14 dias - a série completa, um ponto por dia (calendário de Brasília), está no [CSV](datasets/termometro-edital-prf.csv)/[JSON](datasets/termometro-edital-prf.json). Fórmula pública e determinística na [página da metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/).*
 
@@ -362,7 +362,7 @@ Calcule semanas para percorrer o acervo atual e somar horas complementares, revi
 **Fontes primárias:**
 
 - Edital nº 1 — PRF, de 2021 (Cebraspe): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF — itens 9 (prova objetiva, critérios 9.12) e 24 (objetos de avaliação, composição dos blocos)
-- Catálogo editorial do Escuta Policial: https://escutapolicial.com.br/aulas/ (106 aulas, 1.411 minutos no snapshot gerado)
+- Catálogo editorial do Escuta Policial: https://escutapolicial.com.br/aulas/ (113 aulas, 1.522 minutos no snapshot gerado)
 - Fórmula editorial v1.0 documentada na página; valores individuais são informados pelo usuário e não são enviados ao servidor
 
 ## [Calculadora de custo total para o concurso da PRF](https://escutapolicial.com.br/dados/custo-total-para-concurso-prf/)
