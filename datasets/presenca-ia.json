@@ -5,7 +5,7 @@
   "licenca": "CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/",
   "citacao": "Escuta Policial - PRF em Números. \"Quem as IAs citam para estudar para a PRF (monitor mensal)\". Disponível em: https://escutapolicial.com.br/dados/presenca-ia/. Dados compilados de fontes oficiais (DOU, Cebraspe/CESPE). Licença CC BY 4.0.",
   "fontes": [
-    "Coleta própria do Escuta Policial via API Anthropic (modelo pinado claude-sonnet-5, busca web habilitada). Painel canônico, histórico bruto e regras de detecção públicos no dado: https://escutapolicial.com.br/dados/presenca-ia/dados.json"
+    "Coleta própria do Escuta Policial via API Anthropic (modelo pinado claude-sonnet-5-5, busca web habilitada). Painel canônico, histórico bruto e regras de detecção públicos no dado: https://escutapolicial.com.br/dados/presenca-ia/dados.json"
   ],
   "colunas": [
     "data",
