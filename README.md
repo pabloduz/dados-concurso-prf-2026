@@ -113,19 +113,19 @@ PRF 2021: Trânsito teve 30 questões (25%) e Português, 18 (15%). Veja as 14 m
 | data | score | fase_oficial | noticias_30d |
 | --- | --- | --- | --- |
 | 2026-10-19 | 23 | pre-edital | 2 |
-| 2026-10-18 | 23 | pre-edital | 2 |
-| 2026-10-17 | 23 | pre-edital | 2 |
-| 2026-10-16 | 23 | pre-edital | 2 |
-| 2026-10-15 | 23 | pre-edital | 2 |
-| 2026-10-14 | 23 | pre-edital | 2 |
-| 2026-10-13 | 21 | pre-edital | 1 |
-| 2026-10-12 | 21 | pre-edital | 1 |
-| 2026-10-11 | 21 | pre-edital | 1 |
-| 2026-10-10 | 21 | pre-edital | 1 |
-| 2026-10-09 | 23 | pre-edital | 2 |
-| 2026-10-08 | 25 | pre-edital | 4 |
-| 2026-10-07 | 31 | pre-edital | 8 |
-| 2026-10-06 | 31 | pre-edital | 8 |
+| 2026-10-02 | 34 | pre-edital | 11 |
+| 2026-10-01 | 39 | pre-edital | 16 |
+| 2026-09-30 | 39 | pre-edital | 16 |
+| 2026-09-29 | 39 | pre-edital | 16 |
+| 2026-09-28 | 39 | pre-edital | 16 |
+| 2026-09-27 | 41 | pre-edital | 17 |
+| 2026-09-26 | 41 | pre-edital | 17 |
+| 2026-09-25 | 41 | pre-edital | 18 |
+| 2026-09-24 | 52 | pre-edital | 25 |
+| 2026-09-23 | 52 | pre-edital | 26 |
+| 2026-09-22 | 52 | pre-edital | 26 |
+| 2026-09-21 | 52 | pre-edital | 26 |
+| 2026-09-20 | 54 | pre-edital | 27 |
 
 *Últimos 14 dias - a série completa, um ponto por dia (calendário de Brasília), está no [CSV](datasets/termometro-edital-prf.csv)/[JSON](datasets/termometro-edital-prf.json). Fórmula pública e determinística na [página da metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/).*
 
