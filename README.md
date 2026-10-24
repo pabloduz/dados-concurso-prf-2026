@@ -53,7 +53,7 @@ Quanto tempo da autorização ao edital da PRF? Ele saiu 26 dias após a autoriz
 
 ## [Concorrência e abstenção do concurso PRF (2013-2021)](https://escutapolicial.com.br/dados/concorrencia-prf/)
 
-Quantos inscritos tem o concurso da PRF? 304.330 em 2021 (202,9 por vaga), 129.152 em 2018/19 e 109.769 em 2013. Números oficiais de demanda e abstenção.
+Inscritos não são concorrentes reais: a abstenção muda a conta. Compare as edições de 2013, 2018/19 e 2021 e veja a fonte oficial de cada número de demanda.
 
 | ciclo | vagas | inscritos | inscritos_por_vaga | presentes_prova_objetiva | ausentes_prova_objetiva | abstencao_pct |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -76,7 +76,7 @@ Quantos inscritos tem o concurso da PRF? 304.330 em 2021 (202,9 por vaga), 129.1
 
 ## [Questões por matéria na PRF 2021: distribuição, anulações e blocos](https://escutapolicial.com.br/dados/peso-das-materias-prf/)
 
-PRF 2021: Trânsito teve 30 questões (25%) e Português, 18 (15%). Veja as 14 matérias, anulações, mínimos por bloco e revisão grátis por assunto.
+Mais questões não garantem classificação: cada bloco tem mínimo eliminatório. Simule seus acertos e erros por bloco e revise cada matéria com aula grátis.
 
 | materia | bloco_edital_2021 | questoes_aplicadas | percentual_dos_120_itens | anuladas_opcao_ingles | anuladas_opcao_espanhol | numeros_dos_itens |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -137,7 +137,7 @@ PRF 2021: Trânsito teve 30 questões (25%) e Português, 18 (15%). Veja as 14 m
 
 ## [Salário do Policial Rodoviário Federal: tabela oficial de subsídio (Lei 14.875/2024)](https://escutapolicial.com.br/dados/salario-prf/)
 
-Quanto ganha um Policial Rodoviário Federal? Subsídio inicial de R$ 12.253,84, chegando a R$ 23.000,00 no topo. Tabela da Lei 14.875/2024 em CSV/JSON.
+Calcule seu líquido na PRF: escolha classe e padrão, auxílio-alimentação, fronteira, Funpresp e dependentes e veja o contracheque simulado com fontes.
 
 | classe | padrao | subsidio_2024_08 | subsidio_2025_05 | subsidio_2026_05 |
 | --- | --- | --- | --- | --- |
@@ -171,7 +171,7 @@ Quanto ganha um Policial Rodoviário Federal? Subsídio inicial de R$ 12.253,84,
 
 ## [TAF da PRF: índices oficiais do teste de aptidão física (edital 2021)](https://escutapolicial.com.br/dados/taf-prf/)
 
-Como é o TAF da PRF? 5 testes eliminatórios (barra fixa, shuttle run, impulsão, abdominal e corrida). Na corrida, o mínimo é 2.301 m (H) e 2.001 m (M).
+Zerar um teste elimina e a média do conjunto também pesa. Simule os cinco testes do TAF PRF 2021 e converta sua corrida em nota, pace e parciais por volta.
 
 | teste | sexo | tipo | desempenho | pontos |
 | --- | --- | --- | --- | --- |
@@ -263,7 +263,7 @@ Como é o TAF da PRF? 5 testes eliminatórios (barra fixa, shuttle run, impulsã
 
 ## [Requisitos e etapas do concurso da PRF (edital 2021)](https://escutapolicial.com.br/dados/requisitos-prf/)
 
-Requisitos PRF: nível superior em qualquer área e CNH B. Em 2021 não houve idade máxima, altura mínima nem veto geral a tatuagem. Taxa: R$ 180.
+Antes de estudar, confira se você preenche os requisitos: diploma, CNH e idade na posse. Faça a checagem de 30 segundos e veja o subitem do edital de 2021.
 
 | requisito | exigencia | fonte_oficial |
 | --- | --- | --- |
@@ -289,7 +289,7 @@ Requisitos PRF: nível superior em qualquer área e CNH B. Em 2021 não houve id
 
 ## [Idade para o concurso da PRF: mínima, máxima e o que diz a lei](https://escutapolicial.com.br/dados/idade-para-prf/)
 
-Não existe idade máxima para o concurso da PRF: o edital de 2021 não previu limite. A mínima é 18 anos, exigidos na posse (Lei 8.112/1990, art. 5º, V).
+Existe limite de idade para a PRF? Teste sua situação na posse em 30 segundos e veja o que o edital de 2021, a Lei 8.112 e a Súmula 683 do STF dizem.
 
 | regra | o_que_vale | fonte_oficial |
 | --- | --- | --- |
