@@ -164,7 +164,10 @@ Calcule seu líquido na PRF: escolha classe e padrão, auxílio-alimentação, f
 **Fontes primárias:**
 
 - Lei nº 14.875, de 31 de maio de 2024, Anexo XXVII: https://www2.camara.leg.br/legin/fed/lei/2024/lei-14875-31-maio-2024-795709-anexo-pl.pdf (DOU de 31/05/2024, Seção 1, Edição Extra; texto também em https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14875.htm)
+- Lei nº 11.358, de 19 de outubro de 2006, Anexo III (texto compilado no Planalto, redação dada pela Lei nº 14.875/2024): https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11358.htm
 - Edital nº 1 — PRF, de 18 de janeiro de 2021 (Cebraspe), item 2.3: https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF
+- Cargo administrativo (comparação), vencimento: Lei nº 11.095/2005, Anexo V, alínea “e” (vencimento básico do nível intermediário, efeitos a partir de 1º/4/2026, quadro acrescido pelo Anexo LIX da Lei nº 15.141/2025): https://www2.camara.leg.br/legin/fed/lei/2005/lei-11095-13-janeiro-2005-535380-normaatualizada-pl.html
+- Cargo administrativo (comparação), gratificação: Lei nº 11.095/2005, art. 11-D, § 1º (GDATPRF de 30 a 100 pontos) e Anexo V-C, alínea “e” (valor do ponto do nível intermediário, efeitos a partir de 1º/4/2026, quadro acrescido pelo Anexo LXI da Lei nº 15.141/2025): https://www2.camara.leg.br/legin/fed/lei/2005/lei-11095-13-janeiro-2005-535380-normaatualizada-pl.html
 - Portaria Interministerial MPS/MF nº 13/2026, Anexo III: https://bibliotecadigital.gestao.gov.br/bitstream/123456789/534241/1/PORTARIA%20INTERMINISTERIAL%20MPS_MF%20N%C2%BA%2013%2C%20DE%209%20DE%20JANEIRO%20DE%202026%20-%20PORTARIA%20INTERMINISTERIAL%20MPS_MF%20N%C2%BA%2013%2C%20DE%209%20DE%20JANEIRO%20DE%202026%20-%20DOU%20-%20Imprensa%20Nacional.pdf
 - Receita Federal, tributação mensal de 2026: https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026
 - Portal do Servidor, regime de previdência complementar: https://www.gov.br/servidor/pt-br/assuntos/funpresp/migracao-para-regime-de-previdencia-complementar-1
@@ -330,6 +333,7 @@ Nota de corte PRF 2021: 73,0 foi o corte da objetiva na ampla; 83,0 foi o menor 
 - Edital nº 1 — PRF, de 18 de janeiro de 2021 (Cebraspe) — abertura, itens 4 (vagas), 9.12 (pontuação) e 10.6.1 (limite de correção da discursiva por lista), quadro do item 21 (pontuação máxima do certame): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF
 - Edital Concurso PRF nº 12, de 2021 (Cebraspe) — resultado final na prova discursiva e convocação para o exame de aptidão física (TAF): https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ED_12_PRF_2021_FINAL_DISCURSIVA_CONV_TAF_FIP_MATRCULA.PDF
 - Edital Concurso PRF nº 13, de 16 de junho de 2021 (Cebraspe) — retificação, por erro material, da nota final na prova objetiva de uma candidata (inscrição 10031927, nota corrigida para 74,00): https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ed_13_prf_2021_ret_nota.pdf
+- Edital Concurso PRF nº 114, de 4 de dezembro de 2025 (Cebraspe) - convocação, em segunda chamada, para a matrícula na quarta turma do Curso de Formação Policial (CFP), com base no Decreto nº 12.765, de 28 de novembro de 2025: https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/1FBCF7FE01EAD78210E5A30C112302F7AA068C72164CF83EF1E45E4C2951989F.pdf
 
 ## [Quantas questões acertar na PRF: a conta do Certo/Errado da Cebraspe](https://escutapolicial.com.br/dados/quantas-questoes-acertar-prf/)
 

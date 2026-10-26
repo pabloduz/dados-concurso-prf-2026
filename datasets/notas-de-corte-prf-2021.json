@@ -1,14 +1,15 @@
 {
   "dataset": "Notas de corte do concurso PRF 2021: objetiva e final, por lista",
   "url": "https://escutapolicial.com.br/dados/notas-de-corte-prf-2021/",
-  "atualizadoEm": "2026-07-19",
+  "atualizadoEm": "2026-10-24",
   "licenca": "CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/",
   "citacao": "Escuta Policial - PRF em Números. \"Notas de corte do concurso PRF 2021: objetiva e final, por lista\". Disponível em: https://escutapolicial.com.br/dados/notas-de-corte-prf-2021/. Dados compilados de fontes oficiais (DOU, Cebraspe/CESPE). Licença CC BY 4.0.",
   "fontes": [
     "Edital Concurso PRF nº 11, de 27 de maio de 2021 (Cebraspe) — resultado final na prova objetiva e resultado provisório na prova discursiva: https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ED_11_PRF_2021_FINAL_OBJETIVA_PROV_DISCURSIVA.PDF",
     "Edital nº 1 — PRF, de 18 de janeiro de 2021 (Cebraspe) — abertura, itens 4 (vagas), 9.12 (pontuação) e 10.6.1 (limite de correção da discursiva por lista), quadro do item 21 (pontuação máxima do certame): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF",
     "Edital Concurso PRF nº 12, de 2021 (Cebraspe) — resultado final na prova discursiva e convocação para o exame de aptidão física (TAF): https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ED_12_PRF_2021_FINAL_DISCURSIVA_CONV_TAF_FIP_MATRCULA.PDF",
-    "Edital Concurso PRF nº 13, de 16 de junho de 2021 (Cebraspe) — retificação, por erro material, da nota final na prova objetiva de uma candidata (inscrição 10031927, nota corrigida para 74,00): https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ed_13_prf_2021_ret_nota.pdf"
+    "Edital Concurso PRF nº 13, de 16 de junho de 2021 (Cebraspe) — retificação, por erro material, da nota final na prova objetiva de uma candidata (inscrição 10031927, nota corrigida para 74,00): https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ed_13_prf_2021_ret_nota.pdf",
+    "Edital Concurso PRF nº 114, de 4 de dezembro de 2025 (Cebraspe) - convocação, em segunda chamada, para a matrícula na quarta turma do Curso de Formação Policial (CFP), com base no Decreto nº 12.765, de 28 de novembro de 2025: https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/1FBCF7FE01EAD78210E5A30C112302F7AA068C72164CF83EF1E45E4C2951989F.pdf"
   ],
   "colunas": [
     "lista",
