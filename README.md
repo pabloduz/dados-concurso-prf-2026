@@ -2,7 +2,7 @@
 
 > Fatos do concurso da PRF compilados de **fontes primárias** (Diário Oficial da União, editais e PDFs oficiais do Cebraspe/CESPE) e atualizados automaticamente: um robô do [Escuta Policial](https://escutapolicial.com.br/dados/) lê o DOU a cada ~20 minutos e este repositório é espelhado a cada varredura do Radar (5x por dia).
 
-**🌡️ Termômetro do Edital PRF em 02/11/2026: `25/100` - em aquecimento** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
+**🌡️ Termômetro do Edital PRF em 03/11/2026: `25/100` - em aquecimento** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
 
 - **Licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt-br)**: copie, republique e adapte (inclusive comercialmente), **citando "Escuta Policial" com link** para https://escutapolicial.com.br/dados/.
 - Nenhum número entra sem ato oficial: célula sem fonte fica vazia - preferimos a lacuna ao chute.
@@ -112,6 +112,7 @@ Mais questões não garantem classificação: cada bloco tem mínimo eliminatór
 
 | data | score | fase_oficial | noticias_30d |
 | --- | --- | --- | --- |
+| 2026-11-03 | 25 | pre-edital | 4 |
 | 2026-11-02 | 25 | pre-edital | 4 |
 | 2026-11-01 | 25 | pre-edital | 4 |
 | 2026-10-31 | 25 | pre-edital | 4 |
@@ -125,7 +126,6 @@ Mais questões não garantem classificação: cada bloco tem mínimo eliminatór
 | 2026-10-23 | 23 | pre-edital | 2 |
 | 2026-10-22 | 23 | pre-edital | 2 |
 | 2026-10-21 | 23 | pre-edital | 2 |
-| 2026-10-20 | 23 | pre-edital | 2 |
 
 *Últimos 14 dias - a série completa, um ponto por dia (calendário de Brasília), está no [CSV](datasets/termometro-edital-prf.csv)/[JSON](datasets/termometro-edital-prf.json). Fórmula pública e determinística na [página da metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/).*
 
