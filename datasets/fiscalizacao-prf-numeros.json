@@ -1,0 +1,126 @@
+{
+  "dataset": "Fiscalização da PRF: pessoas, veículos e testes de alcoolemia, 2011-2025",
+  "url": "https://escutapolicial.com.br/dados/fiscalizacao-prf-numeros/",
+  "atualizadoEm": "2026-08-08",
+  "licenca": "CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/",
+  "citacao": "Escuta Policial - PRF em Números. \"Fiscalização da PRF: pessoas, veículos e testes de alcoolemia, 2011-2025\". Disponível em: https://escutapolicial.com.br/dados/fiscalizacao-prf-numeros/. Dados compilados de fontes oficiais (DOU, Cebraspe/CESPE). Licença CC BY 4.0.",
+  "fontes": [
+    "Polícia Rodoviária Federal, Anuário Estatístico PRF 2025 - procedimentos de fiscalização 2011 a 2025 (p. 75 do PDF, publicado em 20/03/2026): https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/diest-arquivos/anuario-2025_final.html/@@display-file/file",
+    "Polícia Rodoviária Federal, Anuário Estatístico PRF 2025 - série histórica das infrações 2007 a 2025 (p. 56 do PDF, publicado em 20/03/2026): https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/diest-arquivos/anuario-2025_final.html/@@display-file/file",
+    "Transcrevemos apenas estatísticas agregadas das tabelas do Anuário Estatístico PRF 2025 (Diretoria de Operações, Setor de Estatística Operacional, 20/03/2026), com atribuição à PRF; não republicamos microdados. Conferimos cada linha contra o PDF em 06/11/2026. Colunas \"calculadas\" saem de script a partir dessas linhas."
+  ],
+  "colunas": [
+    "ano",
+    "pessoas_fiscalizadas",
+    "veiculos_fiscalizados",
+    "testes_alcoolemia",
+    "infracoes_registradas"
+  ],
+  "linhas": [
+    [
+      2011,
+      459424,
+      5213318,
+      93922,
+      2884317
+    ],
+    [
+      2012,
+      4094088,
+      5914475,
+      648291,
+      2843768
+    ],
+    [
+      2013,
+      7170917,
+      8014877,
+      1515165,
+      3251803
+    ],
+    [
+      2014,
+      7257235,
+      7539378,
+      1528336,
+      3327224
+    ],
+    [
+      2015,
+      8169449,
+      7697068,
+      1989602,
+      5409102
+    ],
+    [
+      2016,
+      7777745,
+      7484616,
+      1939346,
+      5584957
+    ],
+    [
+      2017,
+      7040455,
+      6565167,
+      2131139,
+      6023845
+    ],
+    [
+      2018,
+      6942882,
+      7107693,
+      1705507,
+      7356179
+    ],
+    [
+      2019,
+      8255958,
+      8987762,
+      2478507,
+      5742123
+    ],
+    [
+      2020,
+      9396822,
+      10611709,
+      893344,
+      5181786
+    ],
+    [
+      2021,
+      8367252,
+      9472090,
+      299465,
+      5238757
+    ],
+    [
+      2022,
+      11453334,
+      11227345,
+      2889992,
+      4133709
+    ],
+    [
+      2023,
+      9463231,
+      9377720,
+      2803885,
+      5830308
+    ],
+    [
+      2024,
+      9432974,
+      9512629,
+      2810115,
+      9483949
+    ],
+    [
+      2025,
+      10261955,
+      9861605,
+      3584826,
+      10204563
+    ]
+  ]
+}

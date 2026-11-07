@@ -1,0 +1,95 @@
+{
+  "dataset": "Prova Discursiva PRF (Cebraspe) — Calculadora de Nota de Redação e Erros",
+  "url": "https://escutapolicial.com.br/dados/calculadora-discursiva-prf/",
+  "atualizadoEm": "2026-11-06",
+  "licenca": "CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/",
+  "citacao": "Escuta Policial - PRF em Números. \"Prova Discursiva PRF (Cebraspe) — Calculadora de Nota de Redação e Erros\". Disponível em: https://escutapolicial.com.br/dados/calculadora-discursiva-prf/. Dados compilados de fontes oficiais (DOU, Cebraspe/CESPE). Licença CC BY 4.0.",
+  "fontes": [
+    "Edital nº 1 — PRF, de 18 de janeiro de 2021 (Cebraspe), seção 10 (Da Prova Discursiva, subitens 10.1 a 10.7.6): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF",
+    "Edital Concurso PRF nº 11, de 27 de maio de 2021 (resultado provisório na prova discursiva): https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ED_11_PRF_2021_FINAL_OBJETIVA_PROV_DISCURSIVA.PDF",
+    "Edital Concurso PRF nº 12, de 2021 (resultado final na prova discursiva e convocação para o TAF): https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ED_12_PRF_2021_FINAL_DISCURSIVA_CONV_TAF_FIP_MATRCULA.PDF"
+  ],
+  "colunas": [
+    "nota_conteudo_nc",
+    "erros_gramaticais_ne",
+    "linhas_escritas_tl",
+    "desconto_por_erro",
+    "desconto_total",
+    "nota_final_nf",
+    "situacao_edital_2021"
+  ],
+  "linhas": [
+    [
+      20,
+      0,
+      30,
+      0.067,
+      0,
+      20,
+      "Aprovado (nota máxima)"
+    ],
+    [
+      18.5,
+      5,
+      30,
+      0.067,
+      0.33,
+      18.17,
+      "Aprovado (diluição em 30 linhas)"
+    ],
+    [
+      18.5,
+      5,
+      25,
+      0.08,
+      0.4,
+      18.1,
+      "Aprovado (diluição em 25 linhas)"
+    ],
+    [
+      18.5,
+      5,
+      20,
+      0.1,
+      0.5,
+      18,
+      "Aprovado (penalidade maior em 20 linhas)"
+    ],
+    [
+      16,
+      10,
+      30,
+      0.067,
+      0.67,
+      15.33,
+      "Aprovado (10 erros em 30 linhas)"
+    ],
+    [
+      16,
+      10,
+      20,
+      0.1,
+      1,
+      15,
+      "Aprovado (10 erros em 20 linhas)"
+    ],
+    [
+      11,
+      15,
+      20,
+      0.1,
+      1.5,
+      9.5,
+      "Eliminado (NF < 10,00 — subitem 10.7.5)"
+    ],
+    [
+      10.2,
+      5,
+      25,
+      0.08,
+      0.4,
+      9.8,
+      "Eliminado (NF < 10,00 — subitem 10.7.5)"
+    ]
+  ]
+}

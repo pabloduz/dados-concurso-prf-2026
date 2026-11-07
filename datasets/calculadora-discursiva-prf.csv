@@ -1,0 +1,9 @@
+nota_conteudo_nc,erros_gramaticais_ne,linhas_escritas_tl,desconto_por_erro,desconto_total,nota_final_nf,situacao_edital_2021
+20,0,30,0.067,0,20,Aprovado (nota máxima)
+18.5,5,30,0.067,0.33,18.17,Aprovado (diluição em 30 linhas)
+18.5,5,25,0.08,0.4,18.1,Aprovado (diluição em 25 linhas)
+18.5,5,20,0.1,0.5,18,Aprovado (penalidade maior em 20 linhas)
+16,10,30,0.067,0.67,15.33,Aprovado (10 erros em 30 linhas)
+16,10,20,0.1,1,15,Aprovado (10 erros em 20 linhas)
+11,15,20,0.1,1.5,9.5,"Eliminado (NF < 10,00 — subitem 10.7.5)"
+10.2,5,25,0.08,0.4,9.8,"Eliminado (NF < 10,00 — subitem 10.7.5)"

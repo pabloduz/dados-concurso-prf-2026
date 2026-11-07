@@ -1,0 +1,77 @@
+{
+  "dataset": "Convocações e Excedentes PRF — Simulador de Chamadas e Turmas do CFP",
+  "url": "https://escutapolicial.com.br/dados/convocacoes-e-excedentes-prf/",
+  "atualizadoEm": "2026-11-06",
+  "licenca": "CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/",
+  "citacao": "Escuta Policial - PRF em Números. \"Convocações e Excedentes PRF — Simulador de Chamadas e Turmas do CFP\". Disponível em: https://escutapolicial.com.br/dados/convocacoes-e-excedentes-prf/. Dados compilados de fontes oficiais (DOU, Cebraspe/CESPE). Licença CC BY 4.0.",
+  "fontes": [
+    "Edital nº 1 — PRF, de 18 de janeiro de 2021 (Cebraspe), item 4 (vagas) e subitem 10.6.1 (cláusula de barreira de 6.000 discursivas): https://cdn.cebraspe.org.br/concursos/PRF_21/arquivos/ED_1_PRF_2021_ABERTURA.PDF",
+    "Edital Concurso PRF nº 11/2021 (6.747 discursivas corrigidas) e Edital nº 12/2021 (6.190 convocados ao TAF): https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/ED_12_PRF_2021_FINAL_DISCURSIVA_CONV_TAF_FIP_MATRCULA.PDF",
+    "Edital Concurso PRF nº 114, de 4 de dezembro de 2025 (convocação para a 4ª turma do CFP, autorizado pelo Decreto nº 12.765/2025): https://cdn.cebraspe.org.br/concursos/prf_21/arquivos/1FBCF7FE01EAD78210E5A30C112302F7AA068C72164CF83EF1E45E4C2951989F.pdf",
+    "Edital nº 01/2014-PRF (Agente Administrativo, 216 vagas imediatas e 756 convocados à Investigação Social) e Portaria MPOG nº 407/2017 (533 nomeações): https://www.gov.br/mj/pt-br/assuntos/noticias/publicado-edital-para-concurso-da-policia-rodoviaria-federal/edital.pdf",
+    "Lei nº 12.990/2014 (reserva de 20% para negros): https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12990.htm",
+    "Decreto nº 9.508/2018 (reserva de 5% para pessoas com deficiência): https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9508.htm"
+  ],
+  "colunas": [
+    "ciclo",
+    "cargo",
+    "banca",
+    "inscritos",
+    "presentes",
+    "vagas_imediatas",
+    "discursivas_corrigidas_ou_is",
+    "convocados_taf_ou_is",
+    "historico_chamadas_cfp_nomeacoes",
+    "fonte_primaria"
+  ],
+  "linhas": [
+    [
+      "2021",
+      "Policial Rodoviário Federal",
+      "Cebraspe",
+      304330,
+      205241,
+      1500,
+      6747,
+      6190,
+      "4 turmas CFP (até Edital nº 114/2025)",
+      "Edital nº 1/2021-PRF, Edital nº 11/2021, Edital nº 12/2021 e Edital nº 114/2025"
+    ],
+    [
+      "2018/19",
+      "Policial Rodoviário Federal",
+      "Cebraspe",
+      129152,
+      95000,
+      500,
+      2000,
+      1615,
+      "Excedentes convocados (mais de 1.600 nomeados)",
+      "Edital nº 1/2018-PRF e decretos autorizativos de excedentes"
+    ],
+    [
+      "2014",
+      "Agente Administrativo (Nível Médio)",
+      "FUNCAB",
+      109000,
+      78000,
+      216,
+      756,
+      756,
+      "533 nomeados (Portaria MPOG nº 407/2017 — 246% das vagas)",
+      "Edital nº 01/2014-PRF (item 10.1.1) e Portaria MPOG nº 407/2017"
+    ],
+    [
+      "2013",
+      "Policial Rodoviário Federal",
+      "CESPE/UnB",
+      109769,
+      82000,
+      1000,
+      4000,
+      3200,
+      "Chamadas adicionais autorizadas no prazo de validade",
+      "Edital nº 1/2013-DPRF (CESPE/UnB)"
+    ]
+  ]
+}
