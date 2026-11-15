@@ -2,7 +2,7 @@
 
 > Fatos do concurso da PRF compilados de **fontes primárias** (Diário Oficial da União, editais e PDFs oficiais do Cebraspe/CESPE) e atualizados automaticamente: um robô do [Escuta Policial](https://escutapolicial.com.br/dados/) lê o DOU a cada ~20 minutos e este repositório é espelhado a cada varredura do Radar (5x por dia).
 
-**🌡️ Termômetro do Edital PRF em 14/11/2026: `51/100` - aquecendo forte** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
+**🌡️ Termômetro do Edital PRF em 15/11/2026: `51/100` - aquecendo forte** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
 
 - **Licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt-br)**: copie, republique e adapte (inclusive comercialmente), **citando "Escuta Policial" com link** para https://escutapolicial.com.br/dados/.
 - Nenhum número entra sem ato oficial: célula sem fonte fica vazia - preferimos a lacuna ao chute.
@@ -120,7 +120,7 @@ Inscritos não são concorrentes reais: a abstenção muda a conta. Compare as e
 
 ## [Questões por matéria na PRF 2021: distribuição, anulações e blocos](https://escutapolicial.com.br/dados/peso-das-materias-prf/)
 
-Mais questões não garantem classificação: cada bloco tem mínimo eliminatório. Simule seus acertos e erros por bloco e revise cada matéria com aula grátis.
+A prova da PRF 2021 teve 120 itens: Trânsito com 30 (25%) e Português com 18 (15%). Veja as questões por matéria, os mínimos de cada bloco e simule seus pontos.
 
 | materia | bloco_edital_2021 | questoes_aplicadas | percentual_dos_120_itens | anuladas_opcao_ingles | anuladas_opcao_espanhol | numeros_dos_itens |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -156,6 +156,7 @@ Mais questões não garantem classificação: cada bloco tem mínimo eliminatór
 
 | data | score | fase_oficial | noticias_30d |
 | --- | --- | --- | --- |
+| 2026-11-15 | 51 | pre-edital | 24 |
 | 2026-11-14 | 51 | pre-edital | 24 |
 | 2026-11-13 | 49 | pre-edital | 23 |
 | 2026-11-12 | 49 | pre-edital | 23 |
@@ -169,7 +170,6 @@ Mais questões não garantem classificação: cada bloco tem mínimo eliminatór
 | 2026-11-04 | 29 | pre-edital | 7 |
 | 2026-11-03 | 25 | pre-edital | 4 |
 | 2026-11-02 | 25 | pre-edital | 4 |
-| 2026-11-01 | 25 | pre-edital | 4 |
 
 *Últimos 14 dias - a série completa, um ponto por dia (calendário de Brasília), está no [CSV](datasets/termometro-edital-prf.csv)/[JSON](datasets/termometro-edital-prf.json). Fórmula pública e determinística na [página da metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/).*
 
@@ -181,7 +181,7 @@ Mais questões não garantem classificação: cada bloco tem mínimo eliminatór
 
 ## [Salário do Policial Rodoviário Federal: tabela oficial de subsídio (Lei 14.875/2024)](https://escutapolicial.com.br/dados/salario-prf/)
 
-Calcule seu líquido na PRF: escolha classe e padrão, auxílio-alimentação, fronteira, Funpresp e dependentes e veja o contracheque simulado com fontes.
+Salário inicial da PRF: R$ 12.253,84 brutos (Lei 14.875/2024), até R$ 23.000,00 no topo da carreira. Veja a tabela completa e simule o líquido estimado.
 
 | classe | padrao | subsidio_2024_08 | subsidio_2025_05 | subsidio_2026_05 |
 | --- | --- | --- | --- | --- |
