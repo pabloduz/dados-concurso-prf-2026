@@ -2,7 +2,7 @@
 
 > Fatos do concurso da PRF compilados de **fontes primárias** (Diário Oficial da União, editais e PDFs oficiais do Cebraspe/CESPE) e atualizados automaticamente: um robô do [Escuta Policial](https://escutapolicial.com.br/dados/) lê o DOU a cada ~20 minutos e este repositório é espelhado a cada varredura do Radar (5x por dia).
 
-**🌡️ Termômetro do Edital PRF em 22/11/2026: `54/100` - aquecendo forte** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
+**🌡️ Termômetro do Edital PRF em 23/11/2026: `57/100` - aquecendo forte** · fase oficial: pre-edital · [metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/)
 
 - **Licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt-br)**: copie, republique e adapte (inclusive comercialmente), **citando "Escuta Policial" com link** para https://escutapolicial.com.br/dados/.
 - Nenhum número entra sem ato oficial: célula sem fonte fica vazia - preferimos a lacuna ao chute.
@@ -156,6 +156,7 @@ A prova da PRF 2021 teve 120 itens: Trânsito com 30 (25%) e Português com 18 (
 
 | data | score | fase_oficial | noticias_30d |
 | --- | --- | --- | --- |
+| 2026-11-23 | 57 | pre-edital | 29 |
 | 2026-11-22 | 54 | pre-edital | 27 |
 | 2026-11-21 | 54 | pre-edital | 27 |
 | 2026-11-20 | 54 | pre-edital | 27 |
@@ -169,7 +170,6 @@ A prova da PRF 2021 teve 120 itens: Trânsito com 30 (25%) e Português com 18 (
 | 2026-11-12 | 49 | pre-edital | 23 |
 | 2026-11-11 | 43 | pre-edital | 18 |
 | 2026-11-10 | 37 | pre-edital | 13 |
-| 2026-11-09 | 30 | pre-edital | 8 |
 
 *Últimos 14 dias - a série completa, um ponto por dia (calendário de Brasília), está no [CSV](datasets/termometro-edital-prf.csv)/[JSON](datasets/termometro-edital-prf.json). Fórmula pública e determinística na [página da metodologia](https://escutapolicial.com.br/dados/termometro-edital-prf/).*
 
@@ -181,7 +181,7 @@ A prova da PRF 2021 teve 120 itens: Trânsito com 30 (25%) e Português com 18 (
 
 ## [Salário do Policial Rodoviário Federal: tabela oficial de subsídio (Lei 14.875/2024)](https://escutapolicial.com.br/dados/salario-prf/)
 
-Salário inicial da PRF: R$ 12.253,84 brutos (Lei 14.875/2024), até R$ 23.000,00 no topo da carreira. Veja a tabela completa e simule o líquido estimado.
+Estime o salário líquido da PRF no seu cenário, com classe, dependentes e descontos. A tabela oficial traz o subsídio inicial de R$ 12.253,84.
 
 | classe | padrao | subsidio_2024_08 | subsidio_2025_05 | subsidio_2026_05 |
 | --- | --- | --- | --- | --- |
