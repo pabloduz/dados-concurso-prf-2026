@@ -156,7 +156,7 @@ A prova da PRF 2021 teve 120 itens: Trânsito com 30 (25%) e Português com 18 (
 
 | data | score | fase_oficial | noticias_30d |
 | --- | --- | --- | --- |
-| 2026-11-27 | 60 | pre-edital | 31 |
+| 2026-11-27 | 60 | pre-edital | 32 |
 | 2026-11-26 | 58 | pre-edital | 30 |
 | 2026-11-25 | 57 | pre-edital | 29 |
 | 2026-11-24 | 57 | pre-edital | 29 |
